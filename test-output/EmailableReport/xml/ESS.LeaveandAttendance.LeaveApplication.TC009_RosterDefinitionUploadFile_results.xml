@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Roster Definition File Upload"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="1.041">
+  <properties />
+  
+            <testcase name="Login" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC009_RosterDefinitionUploadFile">
+          <skipped />
+    </testcase>
+            <testcase name="DefineRosterUploadFile" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC009_RosterDefinitionUploadFile">
+          <skipped />
+    </testcase>
+            <testcase name="TargetPage" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC009_RosterDefinitionUploadFile">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

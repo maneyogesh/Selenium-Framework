@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Probation Review By RP"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="206.862">
+  <properties />
+  
+  
+            <testcase name="Login" time="2.723" classname="Module.ELC.Probation.TC025_ProbationReviewRP" />
+                <testcase name="TargetPage" time="149.321" classname="Module.ELC.Probation.TC025_ProbationReviewRP" />
+                <testcase name="probationReviewByRP" time="39.769" classname="Module.ELC.Probation.TC025_ProbationReviewRP" />
+                <testcase name="SearchFunctionality" time="15.049" classname="Module.ELC.Probation.TC025_ProbationReviewRP" />
+      
+</testsuite>

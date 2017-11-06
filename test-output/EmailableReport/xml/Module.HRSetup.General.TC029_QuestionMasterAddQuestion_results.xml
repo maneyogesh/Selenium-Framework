@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Question Master Add Question"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="84.675">
+  <properties />
+  
+  
+            <testcase name="Add_Questions" time="28.235" classname="Module.HRSetup.General.TC029_QuestionMasterAddQuestion" />
+                <testcase name="TargetPage" time="31.149" classname="Module.HRSetup.General.TC029_QuestionMasterAddQuestion" />
+                <testcase name="Login" time="1.575" classname="Module.HRSetup.General.TC029_QuestionMasterAddQuestion" />
+                <testcase name="Add_Questions" time="23.716" classname="Module.HRSetup.General.TC029_QuestionMasterAddQuestion" />
+      
+</testsuite>

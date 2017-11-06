@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Employees Attendance Calendar"
+           tests="8"
+           failures="1"
+           errors="0"
+           skipped="7"
+           time="0.002">
+  <properties />
+            <testcase name="endTest" time="0.000" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  pom.TestBase.TestBase.closeBrowser(TestBase.java:369)
+  pom.TestBase.TestBase.endTest(TestBase.java:363)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="initializeTestBaseSetup" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+          <skipped />
+    </testcase>
+            <testcase name="setUp" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+          <skipped />
+    </testcase>
+            <testcase name="TargetPage" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+          <skipped />
+    </testcase>
+            <testcase name="VerifyAttendanceApproveOrReject" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

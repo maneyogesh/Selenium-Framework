@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Employees Attendance Calendar"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="0.989">
+  <properties />
+  
+            <testcase name="AttendanceRegularization" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC013_EmployeeAttendanceCalender">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC013_EmployeeAttendanceCalender">
+          <skipped />
+    </testcase>
+            <testcase name="TargetPage" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC013_EmployeeAttendanceCalender">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

@@ -1,0 +1,544 @@
+<html>
+<head>
+<title>TestNG:  leave application</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>leave application</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/11</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 18 15:53:14 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>73 seconds (73211 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval.Login()'><b>Login</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval<br/>
+<a href="#Output-17394438" onClick='toggleBox("Output-17394438", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17394438" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17394438">
+Completed executing : TC002_LeaveApproval.Login<br/>
+Test is Success:Login<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval@19713e5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave.ApplyLeave()'><b>ApplyLeave</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave</td>
+<td><div><pre>java.lang.Throwable: Method TC001_ApplyLeave.ApplyLeave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave@145b572] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace270092", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace270092'><pre>java.lang.Throwable: Method TC001_ApplyLeave.ApplyLeave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave@145b572] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval.LeaveApproveReject()'><b>LeaveApproveReject</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval</td>
+<td><div><pre>java.lang.Throwable: Method TC002_LeaveApproval.LeaveApproveReject(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval@19713e5] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22669339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22669339'><pre>java.lang.Throwable: Method TC002_LeaveApproval.LeaveApproveReject(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval@19713e5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave.Login()'><b>Login</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave<br/>
+<a href="#Output-19424314" onClick='toggleBox("Output-19424314", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19424314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19424314">
+Completed executing : TC001_ApplyLeave.Login<br/>
+Test is skipped:Login<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave<br/>
+Test Status: Skipped<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave.Login(TC001_ApplyLeave.java:49)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace19424314", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace19424314'><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave.Login(TC001_ApplyLeave.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave@145b572</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify.Login()'><b>Login</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify<br/>
+<a href="#Output-4867138" onClick='toggleBox("Output-4867138", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4867138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4867138">
+Completed executing : TC003_LeaveVerify.Login<br/>
+Test is skipped:Login<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify<br/>
+Test Status: Skipped<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify.Login(TC003_LeaveVerify.java:52)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4867138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4867138'><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify.Login(TC003_LeaveVerify.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify@8f5957</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke.Login()'><b>Login</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke<br/>
+<a href="#Output-28513051" onClick='toggleBox("Output-28513051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28513051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28513051">
+Completed executing : TC004_LeaveRevoke.Login<br/>
+Test is skipped:Login<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke<br/>
+Test Status: Skipped<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke.Login(TC004_LeaveRevoke.java:52)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace28513051", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace28513051'><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke.Login(TC004_LeaveRevoke.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke@122c3c3</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave.TargetPage()'><b>TargetPage</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave<br/>
+<a href="#Output-15998054" onClick='toggleBox("Output-15998054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15998054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15998054">
+Completed executing : TC001_ApplyLeave.TargetPage<br/>
+Test is skipped:TargetPage<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave<br/>
+Test Status: Skipped<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Not Found Element : Human Resource
+	at pom.TestBase.BaseClass.click(BaseClass.java:69)
+	at pom.TestBase.CommonMethods.TargetPage(CommonMethods.java:35)
+	at pom.ObjectPages.uiActions.LeaveApplication.Test_Open_Target_Page(LeaveApplication.java:81)
+	at ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave.TargetPage(TC001_ApplyLeave.java:58)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace15998054", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace15998054'><pre>org.testng.SkipException: Not Found Element : Human Resource
+	at pom.TestBase.BaseClass.click(BaseClass.java:69)
+	at pom.TestBase.CommonMethods.TargetPage(CommonMethods.java:35)
+	at pom.ObjectPages.uiActions.LeaveApplication.Test_Open_Target_Page(LeaveApplication.java:81)
+	at ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave.TargetPage(TC001_ApplyLeave.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave@145b572</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval.TargetPage()'><b>TargetPage</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval<br/>
+<a href="#Output-9961720" onClick='toggleBox("Output-9961720", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9961720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9961720">
+Completed executing : TC002_LeaveApproval.TargetPage<br/>
+Test is skipped:TargetPage<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval<br/>
+Test Status: Skipped<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval.TargetPage(TC002_LeaveApproval.java:57)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9961720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9961720'><pre>org.testng.SkipException: Not Executed this test case
+	at ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval.TargetPage(TC002_LeaveApproval.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval@19713e5</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify.TargetPage()'><b>TargetPage</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify<br/>
+<a href="#Output-17020912" onClick='toggleBox("Output-17020912", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17020912" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17020912">
+Completed executing : TC003_LeaveVerify.TargetPage<br/>
+Test is skipped:TargetPage<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify<br/>
+Test Status: Skipped<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Not Found Element : Human Resource
+	at pom.TestBase.BaseClass.click(BaseClass.java:69)
+	at pom.TestBase.CommonMethods.TargetPage(CommonMethods.java:35)
+	at pom.ObjectPages.uiActions.LeaveApplication.Test_Open_Target_Page(LeaveApplication.java:81)
+	at ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify.TargetPage(TC003_LeaveVerify.java:61)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17020912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17020912'><pre>org.testng.SkipException: Not Found Element : Human Resource
+	at pom.TestBase.BaseClass.click(BaseClass.java:69)
+	at pom.TestBase.CommonMethods.TargetPage(CommonMethods.java:35)
+	at pom.ObjectPages.uiActions.LeaveApplication.Test_Open_Target_Page(LeaveApplication.java:81)
+	at ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify.TargetPage(TC003_LeaveVerify.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify@8f5957</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke.TargetPage()'><b>TargetPage</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke<br/>
+<a href="#Output-32212660" onClick='toggleBox("Output-32212660", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32212660" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32212660">
+Completed executing : TC004_LeaveRevoke.TargetPage<br/>
+Test is skipped:TargetPage<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke<br/>
+Test Status: Skipped<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Not Found Element : Human Resource
+	at pom.TestBase.BaseClass.click(BaseClass.java:69)
+	at pom.TestBase.CommonMethods.TargetPage(CommonMethods.java:35)
+	at pom.ObjectPages.uiActions.LeaveApplication.Test_Open_Target_Page(LeaveApplication.java:81)
+	at ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke.TargetPage(TC004_LeaveRevoke.java:62)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace32212660", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace32212660'><pre>org.testng.SkipException: Not Found Element : Human Resource
+	at pom.TestBase.BaseClass.click(BaseClass.java:69)
+	at pom.TestBase.CommonMethods.TargetPage(CommonMethods.java:35)
+	at pom.ObjectPages.uiActions.LeaveApplication.Test_Open_Target_Page(LeaveApplication.java:81)
+	at ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke.TargetPage(TC004_LeaveRevoke.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke@122c3c3</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify.VerifyLeave()'><b>VerifyLeave</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify</td>
+<td><div><pre>java.lang.Throwable: Method TC003_LeaveVerify.VerifyLeave(java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify@8f5957] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4313143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4313143'><pre>java.lang.Throwable: Method TC003_LeaveVerify.VerifyLeave(java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify@8f5957] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke.VerifyLeave()'><b>VerifyLeave</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke</td>
+<td><div><pre>java.lang.Throwable: Method TC004_LeaveRevoke.VerifyLeave(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke@122c3c3] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9649122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9649122'><pre>java.lang.Throwable: Method TC004_LeaveRevoke.VerifyLeave(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke@122c3c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

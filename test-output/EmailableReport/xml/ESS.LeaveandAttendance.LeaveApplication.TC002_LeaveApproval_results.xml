@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="leave application"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="0.473">
+  <properties />
+  
+            <testcase name="TargetPage" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval">
+          <skipped />
+    </testcase>
+            <testcase name="LeaveApproveReject" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval">
+          <skipped />
+    </testcase>
+            <testcase name="SearchRecord" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

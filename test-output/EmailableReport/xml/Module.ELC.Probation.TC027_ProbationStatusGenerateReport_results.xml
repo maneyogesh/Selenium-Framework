@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Probation Status"
+           tests="4"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="253.987">
+  <properties />
+            <testcase name="ProbationGenerateReport" time="66.281" classname="Module.ELC.Probation.TC027_ProbationStatusGenerateReport">
+                <failure type="java.lang.AssertionError"
+                  message="Expected : [Probation Status] But Found : [Welcome to Onex Software]"
+              >
+<![CDATA[java.lang.AssertionError: Expected : [Probation Status] But Found : [Welcome to Onex Software]
+  org.testng.Assert.fail(Assert.java:94)
+  Module.ELC.Probation.TC027_ProbationStatusGenerateReport.ProbationGenerateReport(TC027_ProbationStatusGenerateReport.java:98)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+  org.testng.TestNG.run(TestNG.java:1018)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TargetPage" time="167.924" classname="Module.ELC.Probation.TC027_ProbationStatusGenerateReport" />
+                <testcase name="Login" time="1.953" classname="Module.ELC.Probation.TC027_ProbationStatusGenerateReport" />
+                <testcase name="SearchFunctionality" time="17.829" classname="Module.ELC.Probation.TC027_ProbationStatusGenerateReport" />
+      
+</testsuite>

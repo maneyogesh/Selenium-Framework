@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Roster Definition"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="5"
+           time="0.576">
+  <properties />
+  
+            <testcase name="TargetPage" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition">
+          <skipped />
+    </testcase>
+            <testcase name="DefineRoster" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition">
+          <skipped />
+    </testcase>
+            <testcase name="SearchRecord" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition">
+          <skipped />
+    </testcase>
+            <testcase name="EditDefinedRoster" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

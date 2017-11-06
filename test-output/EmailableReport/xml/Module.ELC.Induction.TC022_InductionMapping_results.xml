@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Induction Mapping"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="2"
+           time="206.253">
+  <properties />
+  
+            <testcase name="SearchFunctionality" time="0.0" classname="Module.ELC.Induction.TC022_InductionMapping">
+          <skipped />
+    </testcase>
+            <testcase name="InductionSchedule" time="0.0" classname="Module.ELC.Induction.TC022_InductionMapping">
+          <skipped />
+    </testcase>
+  
+            <testcase name="TargetPage" time="203.279" classname="Module.ELC.Induction.TC022_InductionMapping" />
+                <testcase name="Login" time="1.332" classname="Module.ELC.Induction.TC022_InductionMapping" />
+      
+</testsuite>

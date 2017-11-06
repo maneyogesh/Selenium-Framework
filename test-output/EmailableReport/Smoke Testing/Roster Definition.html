@@ -1,0 +1,281 @@
+<html>
+<head>
+<title>TestNG:  Roster Definition</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Roster Definition</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 22 15:58:25 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>149 seconds (149459 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.DefineRoster()'><b>DefineRoster</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br>Parameters: HOUSEKEEPING, 2017.0, OCT, Empname, 00174 CHAN Lai King , WO, 06/10/2017, 07/10/2017, SUN, SUN<br/>
+<a href="#Output-8901703" onClick='toggleBox("Output-8901703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8901703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8901703">
+<br/>
+Completed executing : TC008_RosterDefinition.DefineRoster<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+Test Method had the following parameters : nullHOUSEKEEPING,2017.0,OCT,Empname,00174 CHAN Lai King ,WO,06/10/2017,07/10/2017,SUN,SUN,<br/>
+Test Status: Failed<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected : [WO] But Found : [--][Roster Not Define : Shift not showing ]
+	at ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.DefineRoster(TC008_RosterDefinition.java:102)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8901703", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8901703'><pre>java.lang.AssertionError: Expected : [WO] But Found : [--][Roster Not Define : Shift not showing ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.DefineRoster(TC008_RosterDefinition.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>34</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition@508ed1</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.EditDefinedRoster()'><b>EditDefinedRoster</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+<a href="#Output-20621628" onClick='toggleBox("Output-20621628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20621628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20621628">
+Completed executing : TC008_RosterDefinition.EditDefinedRoster<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+Test Status: Failed<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Record has been saved successfully.): Record has been saved successfully.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;OSO-DTP-057&apos;, ip: &apos;192.168.32.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b237538d-679d-4943-8a47-fb358578f792
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:315)
+	at pom.TestBase.CommonMethods.Test_Edit_RecordDirectSave(CommonMethods.java:171)
+	at pom.ObjectPages.uiActions.RosterDefinition.Test_EditRoster(RosterDefinition.java:133)
+	at ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.EditDefinedRoster(TC008_RosterDefinition.java:109)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20621628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20621628'><pre>org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Record has been saved successfully.): Record has been saved successfully.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;OSO-DTP-057&apos;, ip: &apos;192.168.32.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b237538d-679d-4943-8a47-fb358578f792
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:315)
+	at pom.TestBase.CommonMethods.Test_Edit_RecordDirectSave(CommonMethods.java:171)
+	at pom.ObjectPages.uiActions.RosterDefinition.Test_EditRoster(RosterDefinition.java:133)
+	at ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.EditDefinedRoster(TC008_RosterDefinition.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>2</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition@508ed1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.DefineRoster()'><b>DefineRoster</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br>Parameters: HOUSEKEEPING, 2017.0, OCT, Empname, 00014 Ka Chun Michael NG , WO, 02/10/2017, 06/10/2017, SUN, SUN<br/>
+<a href="#Output-14004487" onClick='toggleBox("Output-14004487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14004487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14004487">
+Roster defined successfully<br/>
+Completed executing : TC008_RosterDefinition.DefineRoster<br/>
+Test is Success:DefineRoster<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+Test Method had the following parameters : nullHOUSEKEEPING,2017.0,OCT,Empname,00014 Ka Chun Michael NG ,WO,02/10/2017,06/10/2017,SUN,SUN,<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition@508ed1</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.Login()'><b>Login</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+<a href="#Output-19598726" onClick='toggleBox("Output-19598726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19598726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19598726">
+Completed executing : TC008_RosterDefinition.Login<br/>
+Test is Success:Login<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition@508ed1</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.SearchRecord()'><b>SearchRecord</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+<a href="#Output-32189507" onClick='toggleBox("Output-32189507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32189507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32189507">
+Completed executing : TC008_RosterDefinition.SearchRecord<br/>
+Test is Success:SearchRecord<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition@508ed1</td></tr>
+<tr>
+<td title='ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition.TargetPage()'><b>TargetPage</b><br>Test class: ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+<a href="#Output-12983985" onClick='toggleBox("Output-12983985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12983985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12983985">
+target page is open successfully<br/>
+Completed executing : TC008_RosterDefinition.TargetPage<br/>
+Test is Success:TargetPage<br/>
+TestName =: null<br/>
+Test Method resides in :=ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition@508ed1</td></tr>
+</table><p>
+</body>
+</html>

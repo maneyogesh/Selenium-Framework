@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Testing]">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="pom.CustomListner.Listener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Employees Attendance Calendar(failed)">
+    <classes>
+      <class name="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify">
+        <methods>
+          <include name="VerifyAttendanceApproveORNot"/>
+          <include name="afterMethod"/>
+          <include name="Login"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TargetPage"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify -->
+    </classes>
+  </test> <!-- Employees Attendance Calendar(failed) -->
+</suite> <!-- Failed suite [Smoke Testing] -->

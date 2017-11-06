@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Testing]">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="pom.CustomListner.Listener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Period Master(failed)">
+    <classes>
+      <class name="Module.HRSetup.General.TC032_PeriodMasterUpdateData">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="TargetPage"/>
+          <include name="Search_Functionality" invocation-numbers="0"/>
+          <include name="Edit_Record"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Login"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.HRSetup.General.TC032_PeriodMasterUpdateData -->
+    </classes>
+  </test> <!-- Period Master(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

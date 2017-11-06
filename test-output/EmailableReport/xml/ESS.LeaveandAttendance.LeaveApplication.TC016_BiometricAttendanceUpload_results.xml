@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Biometric Attendance Upload"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="0.209">
+  <properties />
+  
+            <testcase name="BiometricAttendanceUpload" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC016_BiometricAttendanceUpload">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC016_BiometricAttendanceUpload">
+          <skipped />
+    </testcase>
+            <testcase name="TargetPage" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC016_BiometricAttendanceUpload">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

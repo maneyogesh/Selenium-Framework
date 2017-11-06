@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="leave application"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="30.773">
+  <properties />
+  
+            <testcase name="Login" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke">
+          <skipped />
+    </testcase>
+            <testcase name="TargetPage" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke">
+          <skipped />
+    </testcase>
+            <testcase name="VerifyLeave" time="0.0" classname="ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

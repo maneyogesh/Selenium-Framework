@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Probation Request"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="267.851">
+  <properties />
+  
+  
+            <testcase name="ProbationRequest" time="110.245" classname="Module.ELC.Probation.TC024_ProbationRequest" />
+                <testcase name="TargetPage" time="155.918" classname="Module.ELC.Probation.TC024_ProbationRequest" />
+                <testcase name="Login" time="1.688" classname="Module.ELC.Probation.TC024_ProbationRequest" />
+      
+</testsuite>

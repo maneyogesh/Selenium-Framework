@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Induction FeedBack"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="106.935">
+  <properties />
+  
+            <testcase name="TargetPage" time="0.0" classname="Module.ELC.Induction.TC023_InductionFeedBack">
+          <skipped />
+    </testcase>
+  
+            <testcase name="Login" time="2.240" classname="Module.ELC.Induction.TC023_InductionFeedBack" />
+      
+</testsuite>

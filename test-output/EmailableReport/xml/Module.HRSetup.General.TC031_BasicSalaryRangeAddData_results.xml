@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Basic Salary Range add Test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="206.570">
+  <properties />
+  
+  
+            <testcase name="Add_Basic_Salary_Range" time="11.885" classname="Module.HRSetup.General.TC031_BasicSalaryRangeAddData" />
+                <testcase name="Add_Basic_Salary_Range" time="16.962" classname="Module.HRSetup.General.TC031_BasicSalaryRangeAddData" />
+                <testcase name="Add_New_Button" time="2.827" classname="Module.HRSetup.General.TC031_BasicSalaryRangeAddData" />
+                <testcase name="Edit_Record" time="7.826" classname="Module.HRSetup.General.TC031_BasicSalaryRangeAddData" />
+                <testcase name="Login" time="1.154" classname="Module.HRSetup.General.TC031_BasicSalaryRangeAddData" />
+                <testcase name="TargetPage" time="158.669" classname="Module.HRSetup.General.TC031_BasicSalaryRangeAddData" />
+                <testcase name="Edit_Record" time="7.247" classname="Module.HRSetup.General.TC031_BasicSalaryRangeAddData" />
+      
+</testsuite>

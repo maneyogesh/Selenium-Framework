@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Induction Schedule"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="167.008">
+  <properties />
+  
+            <testcase name="InductionSchedule" time="0.0" classname="Module.ELC.Induction.TC021_InductionSchedule">
+          <skipped />
+    </testcase>
+  
+            <testcase name="Login" time="1.368" classname="Module.ELC.Induction.TC021_InductionSchedule" />
+                <testcase name="TargetPage" time="132.226" classname="Module.ELC.Induction.TC021_InductionSchedule" />
+      
+</testsuite>

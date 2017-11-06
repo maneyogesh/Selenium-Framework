@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Test is started :  Period Master]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.initializeTestBaseSetup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.initializeTestBaseSetup]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.setUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.setUp]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test is Started:Login]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Started]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.Login]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Login]]>
+    </line>
+    <line>
+      <![CDATA[Test is Success:Login]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test is Started:TargetPage]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Started]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.TargetPage]]>
+    </line>
+    <line>
+      <![CDATA[target page is open successfully]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.TargetPage]]>
+    </line>
+    <line>
+      <![CDATA[Test is Success:TargetPage]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test is Started:Search_Functionality]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Started]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.Search_Functionality]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Search_Functionality]]>
+    </line>
+    <line>
+      <![CDATA[Test is Success:Search_Functionality]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test is Started:Edit_Record]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Started]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.Edit_Record]]>
+    </line>
+    <line>
+      <![CDATA[Period master record updated Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Edit_Record]]>
+    </line>
+    <line>
+      <![CDATA[Test is Success:Edit_Record]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.endTest]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.endTest]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Testing" duration-ms="134796" started-at="2017-11-03T09:52:17Z" finished-at="2017-11-03T09:54:32Z">
+    <groups>
+      <group name="pmLogin">
+        <method signature="TC032_PeriodMasterUpdateData.Login()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Login" class="Module.HRSetup.General.TC032_PeriodMasterUpdateData"/>
+      </group> <!-- pmLogin -->
+      <group name="pmTargetPage">
+        <method signature="TC032_PeriodMasterUpdateData.Search_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Search_Functionality" class="Module.HRSetup.General.TC032_PeriodMasterUpdateData"/>
+        <method signature="TC032_PeriodMasterUpdateData.TargetPage()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="TargetPage" class="Module.HRSetup.General.TC032_PeriodMasterUpdateData"/>
+      </group> <!-- pmTargetPage -->
+    </groups>
+    <test name="Period Master" duration-ms="134796" started-at="2017-11-03T09:52:17Z" finished-at="2017-11-03T09:54:32Z">
+      <class name="Module.HRSetup.General.TC032_PeriodMasterUpdateData">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="initializeTestBaseSetup" is-config="true" duration-ms="38935" started-at="2017-11-03T15:22:17Z" finished-at="2017-11-03T15:22:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.initializeTestBaseSetup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="setUp" is-config="true" duration-ms="1328" started-at="2017-11-03T15:22:56Z" finished-at="2017-11-03T15:22:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.setUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2017-11-03T15:22:57Z" finished-at="2017-11-03T15:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.Login() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Login" duration-ms="1216" started-at="2017-11-03T15:22:57Z" finished-at="2017-11-03T15:22:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Login]]>
+            </line>
+            <line>
+              <![CDATA[Test is Success:Login]]>
+            </line>
+            <line>
+              <![CDATA[TestName =: null]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[Before executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:22:59Z" finished-at="2017-11-03T15:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=TC032_PeriodMasterUpdateData.Login()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=Completed executing : TC032_PeriodMasterUpdateData.Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:22:59Z" finished-at="2017-11-03T15:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.TargetPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TargetPage()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="TargetPage" duration-ms="74909" depends-on-groups="pmLogin" started-at="2017-11-03T15:22:59Z" finished-at="2017-11-03T15:24:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[target page is open successfully]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.TargetPage]]>
+            </line>
+            <line>
+              <![CDATA[Test is Success:TargetPage]]>
+            </line>
+            <line>
+              <![CDATA[TestName =: null]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[Before executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TargetPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:24:13Z" finished-at="2017-11-03T15:24:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TargetPage status=SUCCESS method=TC032_PeriodMasterUpdateData.TargetPage()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=target page is open successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:24:14Z" finished-at="2017-11-03T15:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.Search_Functionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Search_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Search_Functionality" duration-ms="6539" depends-on-groups="pmLogin" started-at="2017-11-03T15:24:14Z" data-provider="PeriodMaster" finished-at="2017-11-03T15:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Level]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Level12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Search_Functionality]]>
+            </line>
+            <line>
+              <![CDATA[Test is Success:Search_Functionality]]>
+            </line>
+            <line>
+              <![CDATA[TestName =: null]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[Before executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_Functionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="4" started-at="2017-11-03T15:24:20Z" finished-at="2017-11-03T15:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search_Functionality status=SUCCESS method=TC032_PeriodMasterUpdateData.Search_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=Completed executing : TC032_PeriodMasterUpdateData.Search_Functionality]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:24:20Z" finished-at="2017-11-03T15:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.Edit_Record(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Edit_Record(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Edit_Record" duration-ms="10747" depends-on-groups="pmTargetPage" started-at="2017-11-03T15:24:20Z" data-provider="PeriodMaster" finished-at="2017-11-03T15:24:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Level]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Level12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Period master record updated Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Edit_Record]]>
+            </line>
+            <line>
+              <![CDATA[Test is Success:Edit_Record]]>
+            </line>
+            <line>
+              <![CDATA[TestName =: null]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[Before executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Edit_Record -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-11-03T15:24:31Z" finished-at="2017-11-03T15:24:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_Record status=SUCCESS method=TC032_PeriodMasterUpdateData.Edit_Record(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=Period master record updated Successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="endTest" is-config="true" duration-ms="930" started-at="2017-11-03T15:24:31Z" finished-at="2017-11-03T15:24:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.endTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Module.HRSetup.General.TC032_PeriodMasterUpdateData -->
+    </test> <!-- Period Master -->
+  </suite> <!-- Regression Testing -->
+</testng-results>
