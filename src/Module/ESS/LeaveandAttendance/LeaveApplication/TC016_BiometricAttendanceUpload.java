@@ -29,7 +29,7 @@ public class TC016_BiometricAttendanceUpload extends TestBase {
 	
 	@DataProvider(name="AttendanceUpload")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("BiometricAttendanceUpload.xlsx", "BiometricAttendanceUpload");
+		String[][] testRecords = getData("LeaveAndAttendance/BiometricAttendanceUpload.xlsx", "BiometricAttendanceUpload");
 		return testRecords;
 	}
 

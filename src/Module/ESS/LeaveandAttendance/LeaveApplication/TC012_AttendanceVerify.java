@@ -27,7 +27,7 @@ public class TC012_AttendanceVerify extends TestBase {
 	
 	@DataProvider(name="AttendanceVerify")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("AttendanceRegularization.xlsx", "AttendanceVerify");
+		String[][] testRecords = getData("LeaveAndAttendance/AttendanceRegularization.xlsx", "AttendanceVerify");
 		return testRecords;
 	}
 

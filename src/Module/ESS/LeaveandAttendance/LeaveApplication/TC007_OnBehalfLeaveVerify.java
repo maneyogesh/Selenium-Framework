@@ -33,7 +33,7 @@ public class TC007_OnBehalfLeaveVerify extends TestBase {
 	
 	@DataProvider(name="LeaveVerify")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("OnBehalfLeaveApplication.xlsx", "OnBehalfLeaveVerify");
+		String[][] testRecords = getData("LeaveAndAttendance/OnBehalfLeaveApplication.xlsx", "OnBehalfLeaveVerify");
 		return testRecords;
 	}
 

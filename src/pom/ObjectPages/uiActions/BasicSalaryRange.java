@@ -26,19 +26,19 @@ public class BasicSalaryRange extends TestBase{
 	@FindBy(linkText="General") WebElement General;  
 	@FindBy(linkText="Basic Salary Range") WebElement BasicSalaryRange;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement searchdropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement searchtextbox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement searchbutton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement searchdropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement searchtextbox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement searchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchbutton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdAddNew']") WebElement AddNewButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpdept']") WebElement Department;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpgrade']") WebElement Grade;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtMinRange']") WebElement Minrange;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtMedRange']") WebElement medrange;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtMaxRange']") WebElement maxrange;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_OkButton']") WebElement SaveButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CancelButton']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdAddNew']") WebElement AddNewButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpdept']") WebElement Department;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpgrade']") WebElement Grade;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtMinRange']") WebElement Minrange;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtMedRange']") WebElement medrange;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtMaxRange']") WebElement maxrange;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_OkButton']") WebElement SaveButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CancelButton']") WebElement CancelButton;
 	
 	String module = "Human Resource";
 	String submoduleName = "HR Setup";

@@ -29,27 +29,27 @@ public class QuestionBank extends TestBase{
 	@FindBy(xpath=".//*[text()=' General']") WebElement General;  
 	@FindBy(xpath=".//*[text()=' Question Master']") WebElement QuestionMaster;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpsearch']") WebElement searchdropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearch']") WebElement searchtextbox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSearch']") WebElement searchbutton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnClear']") WebElement ClearSearchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpsearch']") WebElement searchdropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearch']") WebElement searchtextbox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSearch']") WebElement searchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnClear']") WebElement ClearSearchbutton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkaddnew']") WebElement AddNewButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtQesCode']") WebElement QuestionCode;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ddSubject']") WebElement SelectSubject;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtqesDesc']") WebElement Question;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ddqusType']") WebElement QuestionType;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSubMks']") WebElement Marks;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnksubmit']") WebElement SaveButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkback']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkaddnew']") WebElement AddNewButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtQesCode']") WebElement QuestionCode;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ddSubject']") WebElement SelectSubject;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtqesDesc']") WebElement Question;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ddqusType']") WebElement QuestionType;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSubMks']") WebElement Marks;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnksubmit']") WebElement SaveButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkback']") WebElement CancelButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtnooption']") WebElement NoOfOption;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtnooption']") WebElement NoOfOption;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtopn0']") WebElement Option1;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtopn1']") WebElement Option2;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtopn2']") WebElement Option3;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtopn3']") WebElement Option4;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSub']") WebElement ExpectedAnswer;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtopn0']") WebElement Option1;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtopn1']") WebElement Option2;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtopn2']") WebElement Option3;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtopn3']") WebElement Option4;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSub']") WebElement ExpectedAnswer;
 		
 	String module = "Human Resource";
 	String submoduleName = "HR Setup";

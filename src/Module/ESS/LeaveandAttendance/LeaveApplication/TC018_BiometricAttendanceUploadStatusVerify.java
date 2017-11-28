@@ -29,7 +29,7 @@ public class TC018_BiometricAttendanceUploadStatusVerify extends TestBase {
 	
 	@DataProvider(name="BiometricAttendanceUploadVerify")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("BiometricAttendanceUpload.xlsx", "BiometricAttendanceVerify");
+		String[][] testRecords = getData("LeaveAndAttendance/BiometricAttendanceUpload.xlsx", "BiometricAttendanceVerify");
 		return testRecords;
 	}
 

@@ -36,7 +36,7 @@ public class TC019_LeaveApprovalPlannerViewer extends TestBase {
 		
 	@DataProvider(name="loginData")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("LeaveAndAttendance.xlsx", "LeavePlannerViewer");
+		String[][] testRecords = getData("LeaveAndAttendance/LeaveAndAttendance.xlsx", "LeavePlannerViewer");
 		return testRecords;
 	}
 
@@ -94,9 +94,6 @@ public class TC019_LeaveApprovalPlannerViewer extends TestBase {
 			Assert.fail("Wrong Leave Status has been shown");
 		}
 	}
-	
-	
-
 	
 }
 

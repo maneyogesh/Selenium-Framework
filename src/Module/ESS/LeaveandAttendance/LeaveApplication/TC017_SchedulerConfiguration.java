@@ -27,7 +27,7 @@ public class TC017_SchedulerConfiguration extends TestBase {
 	
 	@DataProvider(name="SchedulerConfiguration")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("BiometricAttendanceUpload.xlsx", "SchedulerConfiguration");
+		String[][] testRecords = getData("LeaveAndAttendance/BiometricAttendanceUpload.xlsx", "SchedulerConfiguration");
 		return testRecords;
 	}
 

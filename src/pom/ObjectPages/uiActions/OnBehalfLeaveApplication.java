@@ -25,14 +25,14 @@ public class OnBehalfLeaveApplication extends TestBase{
 	CommonMethods cm;
 	ReadExcelMapping REM = new ReadExcelMapping();
 	
-	@FindBy(id="ImgBtn_HR") WebElement HRMS;
+	@FindBy(linkText="Human Resource") WebElement HRMS;
 	@FindBy(linkText="Employee Self Service") WebElement ESS;
 	@FindBy(linkText="Leave & Attendance") WebElement LeaveandAttendance;  
 	@FindBy(linkText="On Behalf Leave Application") WebElement OnBehalfLeaveApplication;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement searchdropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement searchtextbox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement searchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement searchdropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement searchtextbox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement searchbutton;
 	
 	String module = "Human Resource";
 	String submoduleName = "ESS";
@@ -61,9 +61,9 @@ public class OnBehalfLeaveApplication extends TestBase{
 		lp.Login(map.get(10).get("CompanyCode"),map.get(10).get("UserName"), map.get(10).get("Password"));
 	}
 	
-	public void Test_Open_Target_Page(){
+	public void Test_Open_Target_Page() throws Exception{
 		cm = new CommonMethods(driver);
-		cm.TargetPage(HRMS, module, ESS, submoduleName, LeaveandAttendance, subsectionName, OnBehalfLeaveApplication, pageName, PageTitle);	
+		cm.TargetPageClick(HRMS, module, ESS, submoduleName, LeaveandAttendance, subsectionName, OnBehalfLeaveApplication, pageName, PageHeader);	
 	}
 	
 	public void Test_Search_Record(String dropdown_Value, String SearchData) throws Exception {

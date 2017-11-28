@@ -50,37 +50,37 @@ public class Induction extends TestBase{
 	@FindBy(xpath=".//*[@class='page-heading']/span[text()='EMPLOYEE INDUCTION MAPPING']") WebElement MappingPageHeader;
 	@FindBy(xpath=".//*[@class='page-heading']") WebElement FeedbackHeader;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSearch']") WebElement SearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSearch']") WebElement SearchButton;
 
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnClearSearch']") WebElement ClearSearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdAddNew']") WebElement AddNewButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnClearSearch']") WebElement ClearSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdAddNew']") WebElement AddNewButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ImgFd']") WebElement CalenderButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender_nextArrow") WebElement NextCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender_title") WebElement MiddleCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender_prevArrow") WebElement PrevCalender;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender_monthsBody']//descendant::tr/td/div") List<WebElement> AllMonth;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender_daysBody']/tr/td[not(contains(@class,'ajax__calendar_other'))]") List<WebElement> AllDates;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ImgFd']") WebElement CalenderButton;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender_nextArrow") WebElement NextCalender;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender_title") WebElement MiddleCalender;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender_prevArrow") WebElement PrevCalender;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender_monthsBody']//descendant::tr/td/div") List<WebElement> AllMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender_daysBody']/tr/td[not(contains(@class,'ajax__calendar_other'))]") List<WebElement> AllDates;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtvenue']") WebElement Venue;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtTimeIn']") WebElement InTime;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtTimeOut']") WebElement OutTime;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_OkButton']") WebElement OKButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CancelButton']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtvenue']") WebElement Venue;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtTimeIn']") WebElement InTime;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtTimeOut']") WebElement OutTime;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_OkButton']") WebElement OKButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CancelButton']") WebElement CancelButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkAddNew']") WebElement MappingAddNewButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_chkSelectAll']") WebElement SelectAll;
-	@FindBy(id="ctl00_ContentPlaceHolder_drpSearchList") WebElement MappingSearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtNotMappSearch']") WebElement MappingSearchBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_LnkNotMappSearch']") WebElement MappingSearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSave123']") WebElement MappingOkButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSave']") WebElement MappingSaveButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkAddNew']") WebElement MappingAddNewButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_chkSelectAll']") WebElement SelectAll;
+	@FindBy(id="ContentPlaceHolder_drpSearchList") WebElement MappingSearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtNotMappSearch']") WebElement MappingSearchBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_LnkNotMappSearch']") WebElement MappingSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSave123']") WebElement MappingOkButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSave']") WebElement MappingSaveButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement Mapping1stSearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement Mapping1stSearchBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSearch']") WebElement Mapping1stSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement Mapping1stSearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement Mapping1stSearchBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSearch']") WebElement Mapping1stSearchButton;
 	
 	
 	String ClearSearchName = "Clear Search Button";

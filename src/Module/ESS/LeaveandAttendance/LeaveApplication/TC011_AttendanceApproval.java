@@ -29,7 +29,7 @@ public class TC011_AttendanceApproval extends TestBase {
 	
 	@DataProvider(name="AttendanceApproval")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("AttendanceRegularization.xlsx", "AttendanceApproval");
+		String[][] testRecords = getData("LeaveAndAttendance/AttendanceRegularization.xlsx", "AttendanceApproval");
 		return testRecords;
 	}
 

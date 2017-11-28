@@ -3,14 +3,12 @@
            tests="2"
            failures="0"
            errors="0"
-           skipped="1"
-           time="106.935">
+           skipped="0"
+           time="25.072">
   <properties />
   
-            <testcase name="TargetPage" time="0.0" classname="Module.ELC.Induction.TC023_InductionFeedBack">
-          <skipped />
-    </testcase>
   
-            <testcase name="Login" time="2.240" classname="Module.ELC.Induction.TC023_InductionFeedBack" />
+            <testcase name="Login" time="1.251" classname="Module.ELC.Induction.TC023_InductionFeedBack" />
+                <testcase name="TargetPage" time="23.821" classname="Module.ELC.Induction.TC023_InductionFeedBack" />
       
 </testsuite>

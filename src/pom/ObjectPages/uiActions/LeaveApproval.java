@@ -37,16 +37,15 @@ public class LeaveApproval extends TestBase{
 	String subsectionName = "Leave and Attendance";
 	String pageName = "Leave Approval";
 	String PageTitle = "Leave Approval";
-	
-	
+		
 	@FindBy(xpath=".//*[@class='page-heading']/span[text()='LEAVE APPROVAL']") WebElement PageHeader;
-	@FindBy(id="ctl00_ContentPlaceHolder_drpSearchList") WebElement searchdropdown;
-	@FindBy(id="ctl00_ContentPlaceHolder_txtSearchText") WebElement SearchTextBox;
-	@FindBy(id="ctl00_ContentPlaceHolder_cmdSearch") WebElement SearchButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_dgApprover_ChkApproval_0") WebElement Checkbox1st;
-	@FindBy(id="ctl00_ContentPlaceHolder_dgApprover_ddlStatus_0") WebElement StatusDropdown;
-	@FindBy(id="ctl00_ContentPlaceHolder_btnApproved") WebElement SubmitButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_dgApprover_txtRemarks_0") WebElement RemarkBox;
+	@FindBy(id="ContentPlaceHolder_drpSearchList") WebElement searchdropdown;
+	@FindBy(id="ContentPlaceHolder_txtSearchText") WebElement SearchTextBox;
+	@FindBy(id="ContentPlaceHolder_cmdSearch") WebElement SearchButton;
+	@FindBy(id="ContentPlaceHolder_dgApprover_ChkApproval_0") WebElement Checkbox1st;
+	@FindBy(id="ContentPlaceHolder_dgApprover_ddlStatus_0") WebElement StatusDropdown;
+	@FindBy(id="ContentPlaceHolder_btnApproved") WebElement SubmitButton;
+	@FindBy(id="ContentPlaceHolder_dgApprover_txtRemarks_0") WebElement RemarkBox;
 	
 	String SearchDropdown ="Leave Approval Dropdown";
 		

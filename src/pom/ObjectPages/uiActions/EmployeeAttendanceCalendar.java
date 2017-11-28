@@ -37,17 +37,17 @@ public class EmployeeAttendanceCalendar extends TestBase{
 	
 	@FindBy(xpath=".//*[@class='page-heading']/span[text()='Employee Attendance Calender']") WebElement PageHeader;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropPayyear']") WebElement Year;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpMonths']") WebElement CalendarMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropPayyear']") WebElement Year;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpMonths']") WebElement CalendarMonth;
 	
 	@FindBy(xpath=".//*[text()='25']") WebElement Date;
 
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_drpattStatus']") WebElement AttendanceStatus;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_txtRemarks']") WebElement Remarks;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtintime1_0']") WebElement InTime;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtouttime1_0']") WebElement OutTime;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_SaveButton']") WebElement SaveButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_CancelSaveBtn']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_drpattStatus']") WebElement AttendanceStatus;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_txtRemarks']") WebElement Remarks;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtintime1_0']") WebElement InTime;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtouttime1_0']") WebElement OutTime;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_SaveButton']") WebElement SaveButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_CancelSaveBtn']") WebElement CancelButton;
 			
 	String YearName = "Year Dropdown";
 	String CalendarMonthName = "Calendar Month Dropdown";

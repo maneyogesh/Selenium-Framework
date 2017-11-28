@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
     <line>
-      <![CDATA[Test is started :  Period Master]]>
+      <![CDATA[Test is started :  Goal Master Data Upload]]>
     </line>
     <line>
       <![CDATA[Before executing : TestBase.initializeTestBaseSetup]]>
@@ -11,10 +11,10 @@
       <![CDATA[Completed executing : TestBase.initializeTestBaseSetup]]>
     </line>
     <line>
-      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.setUp]]>
+      <![CDATA[Before executing : TC046_GoalMasterDataUpload.setUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.setUp]]>
+      <![CDATA[Completed executing : TC046_GoalMasterDataUpload.setUp]]>
     </line>
     <line>
       <![CDATA[Before executing : TestBase.beforeMethod]]>
@@ -29,16 +29,16 @@
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
       <![CDATA[Test Status: Started]]>
     </line>
     <line>
-      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.Login]]>
+      <![CDATA[Before executing : TC046_GoalMasterDataUpload.Login]]>
     </line>
     <line>
-      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Login]]>
+      <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Login]]>
     </line>
     <line>
       <![CDATA[Test is Success:Login]]>
@@ -47,7 +47,7 @@
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -71,19 +71,19 @@
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
       <![CDATA[Test Status: Started]]>
     </line>
     <line>
-      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.TargetPage]]>
+      <![CDATA[Before executing : TC046_GoalMasterDataUpload.TargetPage]]>
     </line>
     <line>
       <![CDATA[target page is open successfully]]>
     </line>
     <line>
-      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.TargetPage]]>
+      <![CDATA[Completed executing : TC046_GoalMasterDataUpload.TargetPage]]>
     </line>
     <line>
       <![CDATA[Test is Success:TargetPage]]>
@@ -92,7 +92,7 @@
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -110,37 +110,82 @@
       <![CDATA[Completed executing : TestBase.beforeMethod]]>
     </line>
     <line>
-      <![CDATA[Test is Started:Search_Functionality]]>
+      <![CDATA[Test is Started:Add_New_Button]]>
     </line>
     <line>
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
-    </line>
-    <line>
-      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
       <![CDATA[Test Status: Started]]>
     </line>
     <line>
-      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.Search_Functionality]]>
+      <![CDATA[Before executing : TC046_GoalMasterDataUpload.Add_New_Button]]>
     </line>
     <line>
-      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Search_Functionality]]>
+      <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Add_New_Button]]>
     </line>
     <line>
-      <![CDATA[Test is Success:Search_Functionality]]>
+      <![CDATA[Test is Success:Add_New_Button]]>
     </line>
     <line>
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
-      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TestBase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test is Started:Add_Goal_Master_Data]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullFocus Code,FG124,Automation Gria,Yes,Test Data,Goal Master ->,Goal Code,GCK10,Tested g,Yes,Test data,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Started]]>
+    </line>
+    <line>
+      <![CDATA[Before executing : TC046_GoalMasterDataUpload.Add_Goal_Master_Data]]>
+    </line>
+    <line>
+      <![CDATA[Goal Code master record added Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Add_Goal_Master_Data]]>
+    </line>
+    <line>
+      <![CDATA[Test is Success:Add_Goal_Master_Data]]>
+    </line>
+    <line>
+      <![CDATA[TestName =: null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullFocus Code,FG124,Automation Gria,Yes,Test Data,Goal Master ->,Goal Code,GCK10,Tested g,Yes,Test data,]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -164,22 +209,19 @@
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
-    </line>
-    <line>
-      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
       <![CDATA[Test Status: Started]]>
     </line>
     <line>
-      <![CDATA[Before executing : TC032_PeriodMasterUpdateData.Edit_Record]]>
+      <![CDATA[Before executing : TC046_GoalMasterDataUpload.Edit_Record]]>
     </line>
     <line>
-      <![CDATA[Period master record updated Successfully]]>
+      <![CDATA[Record Added Successfully]]>
     </line>
     <line>
-      <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Edit_Record]]>
+      <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Edit_Record]]>
     </line>
     <line>
       <![CDATA[Test is Success:Edit_Record]]>
@@ -188,10 +230,7 @@
       <![CDATA[TestName =: null]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
-    </line>
-    <line>
-      <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+      <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -209,19 +248,24 @@
       <![CDATA[Completed executing : TestBase.endTest]]>
     </line>
   </reporter-output>
-  <suite name="Regression Testing" duration-ms="134796" started-at="2017-11-03T09:52:17Z" finished-at="2017-11-03T09:54:32Z">
+  <suite name="HRMS - Regression Testing" duration-ms="74614" started-at="2017-11-28T05:42:16Z" finished-at="2017-11-28T05:43:30Z">
     <groups>
-      <group name="pmLogin">
-        <method signature="TC032_PeriodMasterUpdateData.Login()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Login" class="Module.HRSetup.General.TC032_PeriodMasterUpdateData"/>
-      </group> <!-- pmLogin -->
-      <group name="pmTargetPage">
-        <method signature="TC032_PeriodMasterUpdateData.Search_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Search_Functionality" class="Module.HRSetup.General.TC032_PeriodMasterUpdateData"/>
-        <method signature="TC032_PeriodMasterUpdateData.TargetPage()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="TargetPage" class="Module.HRSetup.General.TC032_PeriodMasterUpdateData"/>
-      </group> <!-- pmTargetPage -->
+      <group name="GMLogin">
+        <method signature="TC046_GoalMasterDataUpload.Login()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="Login" class="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload"/>
+      </group> <!-- GMLogin -->
+      <group name="GMTargetPage">
+        <method signature="TC046_GoalMasterDataUpload.TargetPage()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="TargetPage" class="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload"/>
+      </group> <!-- GMTargetPage -->
+      <group name="GMAddNewButton">
+        <method signature="TC046_GoalMasterDataUpload.Add_New_Button()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="Add_New_Button" class="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload"/>
+      </group> <!-- GMAddNewButton -->
+      <group name="GMAddNewData">
+        <method signature="TC046_GoalMasterDataUpload.Add_Goal_Master_Data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="Add_Goal_Master_Data" class="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload"/>
+      </group> <!-- GMAddNewData -->
     </groups>
-    <test name="Period Master" duration-ms="134796" started-at="2017-11-03T09:52:17Z" finished-at="2017-11-03T09:54:32Z">
-      <class name="Module.HRSetup.General.TC032_PeriodMasterUpdateData">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="initializeTestBaseSetup" is-config="true" duration-ms="38935" started-at="2017-11-03T15:22:17Z" finished-at="2017-11-03T15:22:56Z">
+    <test name="Goal Master Data Upload" duration-ms="74614" started-at="2017-11-28T05:42:16Z" finished-at="2017-11-28T05:43:30Z">
+      <class name="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="initializeTestBaseSetup" is-config="true" duration-ms="12661" started-at="2017-11-28T11:12:16Z" finished-at="2017-11-28T11:12:28Z">
           <params>
             <param index="0">
               <value>
@@ -235,18 +279,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="setUp" is-config="true" duration-ms="1328" started-at="2017-11-03T15:22:56Z" finished-at="2017-11-03T15:22:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="setUp" is-config="true" duration-ms="1477" started-at="2017-11-28T11:12:28Z" finished-at="2017-11-28T11:12:30Z">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.setUp]]>
+              <![CDATA[Completed executing : TC046_GoalMasterDataUpload.setUp]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2017-11-03T15:22:57Z" finished-at="2017-11-03T15:22:57Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2017-11-28T11:12:30Z" finished-at="2017-11-28T11:12:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.Login() throws java.lang.Exception]]>
+                <![CDATA[public void Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload.Login() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
@@ -256,10 +300,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Login" duration-ms="1216" started-at="2017-11-03T15:22:57Z" finished-at="2017-11-03T15:22:59Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="Login" duration-ms="1484" started-at="2017-11-28T11:12:30Z" finished-at="2017-11-28T11:12:31Z">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Login]]>
+              <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Login]]>
             </line>
             <line>
               <![CDATA[Test is Success:Login]]>
@@ -268,7 +312,7 @@
               <![CDATA[TestName =: null]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+              <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
@@ -278,11 +322,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:22:59Z" finished-at="2017-11-03T15:22:59Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-28T11:12:31Z" finished-at="2017-11-28T11:12:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=TC032_PeriodMasterUpdateData.Login()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=Completed executing : TC032_PeriodMasterUpdateData.Login]]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=TC046_GoalMasterDataUpload.Login()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1] output=Completed executing : TC046_GoalMasterDataUpload.Login]]]>
               </value>
             </param>
           </params>
@@ -292,11 +336,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:22:59Z" finished-at="2017-11-03T15:22:59Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-28T11:12:31Z" finished-at="2017-11-28T11:12:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.TargetPage() throws java.lang.Exception]]>
+                <![CDATA[public void Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload.TargetPage() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
@@ -306,13 +350,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TargetPage()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="TargetPage" duration-ms="74909" depends-on-groups="pmLogin" started-at="2017-11-03T15:22:59Z" finished-at="2017-11-03T15:24:13Z">
+        <test-method status="PASS" signature="TargetPage()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="TargetPage" duration-ms="30306" depends-on-groups="GMLogin" started-at="2017-11-28T11:12:31Z" finished-at="2017-11-28T11:13:02Z">
           <reporter-output>
             <line>
               <![CDATA[target page is open successfully]]>
             </line>
             <line>
-              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.TargetPage]]>
+              <![CDATA[Completed executing : TC046_GoalMasterDataUpload.TargetPage]]>
             </line>
             <line>
               <![CDATA[Test is Success:TargetPage]]>
@@ -321,7 +365,7 @@
               <![CDATA[TestName =: null]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
+              <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
@@ -331,11 +375,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TargetPage -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:24:13Z" finished-at="2017-11-03T15:24:13Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T11:13:02Z" finished-at="2017-11-28T11:13:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TargetPage status=SUCCESS method=TC032_PeriodMasterUpdateData.TargetPage()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=target page is open successfully]]]>
+                <![CDATA[[TestResult name=TargetPage status=SUCCESS method=TC046_GoalMasterDataUpload.TargetPage()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1] output=target page is open successfully]]]>
               </value>
             </param>
           </params>
@@ -345,11 +389,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:24:14Z" finished-at="2017-11-03T15:24:14Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-28T11:13:02Z" finished-at="2017-11-28T11:13:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.Search_Functionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload.Add_New_Button() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
@@ -359,54 +403,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Search_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Search_Functionality" duration-ms="6539" depends-on-groups="pmLogin" started-at="2017-11-03T15:24:14Z" data-provider="PeriodMaster" finished-at="2017-11-03T15:24:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Level]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Level12]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[23]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="Add_New_Button()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="Add_New_Button" duration-ms="2796" depends-on-groups="GMTargetPage" started-at="2017-11-28T11:13:02Z" finished-at="2017-11-28T11:13:04Z">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Search_Functionality]]>
+              <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Add_New_Button]]>
             </line>
             <line>
-              <![CDATA[Test is Success:Search_Functionality]]>
+              <![CDATA[Test is Success:Add_New_Button]]>
             </line>
             <line>
               <![CDATA[TestName =: null]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
-            </line>
-            <line>
-              <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+              <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
@@ -415,12 +424,12 @@
               <![CDATA[Before executing : TestBase.afterMethod]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Search_Functionality -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="4" started-at="2017-11-03T15:24:20Z" finished-at="2017-11-03T15:24:20Z">
+        </test-method> <!-- Add_New_Button -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T11:13:04Z" finished-at="2017-11-28T11:13:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Search_Functionality status=SUCCESS method=TC032_PeriodMasterUpdateData.Search_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=Completed executing : TC032_PeriodMasterUpdateData.Search_Functionality]]]>
+                <![CDATA[[TestResult name=Add_New_Button status=SUCCESS method=TC046_GoalMasterDataUpload.Add_New_Button()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1] output=Completed executing : TC046_GoalMasterDataUpload.Add_New_Button]]]>
               </value>
             </param>
           </params>
@@ -430,11 +439,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-03T15:24:20Z" finished-at="2017-11-03T15:24:20Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2017-11-28T11:13:04Z" finished-at="2017-11-28T11:13:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Module.HRSetup.General.TC032_PeriodMasterUpdateData.Edit_Record(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload.Add_Goal_Master_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
@@ -444,45 +453,126 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Edit_Record(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="Edit_Record" duration-ms="10747" depends-on-groups="pmTargetPage" started-at="2017-11-03T15:24:20Z" data-provider="PeriodMaster" finished-at="2017-11-03T15:24:31Z">
+        <test-method status="PASS" signature="Add_Goal_Master_Data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="Add_Goal_Master_Data" duration-ms="18700" depends-on-groups="GMAddNewButton" started-at="2017-11-28T11:13:04Z" data-provider="FocusMaster" finished-at="2017-11-28T11:13:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Level]]>
+                <![CDATA[Focus Code]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Level12]]>
+                <![CDATA[FG124]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[23]]>
+                <![CDATA[Automation Gria]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[2]]>
+                <![CDATA[Yes]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[3]]>
+                <![CDATA[Test Data]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[4]]>
+                <![CDATA[Goal Master ->]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Goal Code]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GCK10]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Tested g]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Test data]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Period master record updated Successfully]]>
+              <![CDATA[Goal Code master record added Successfully]]>
             </line>
             <line>
-              <![CDATA[Completed executing : TC032_PeriodMasterUpdateData.Edit_Record]]>
+              <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Add_Goal_Master_Data]]>
+            </line>
+            <line>
+              <![CDATA[Test is Success:Add_Goal_Master_Data]]>
+            </line>
+            <line>
+              <![CDATA[TestName =: null]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullFocus Code,FG124,Automation Gria,Yes,Test Data,Goal Master ->,Goal Code,GCK10,Tested g,Yes,Test data,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[Before executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add_Goal_Master_Data -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="afterMethod" is-config="true" duration-ms="3" started-at="2017-11-28T11:13:23Z" finished-at="2017-11-28T11:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_Goal_Master_Data status=SUCCESS method=TC046_GoalMasterDataUpload.Add_Goal_Master_Data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1] output=Goal Code master record added Successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-28T11:13:23Z" finished-at="2017-11-28T11:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload.Edit_Record()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing : TestBase.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Edit_Record()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="Edit_Record" duration-ms="6300" depends-on-groups="GMAddNewData" started-at="2017-11-28T11:13:23Z" finished-at="2017-11-28T11:13:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Record Added Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing : TC046_GoalMasterDataUpload.Edit_Record]]>
             </line>
             <line>
               <![CDATA[Test is Success:Edit_Record]]>
@@ -491,10 +581,7 @@
               <![CDATA[TestName =: null]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in :=Module.HRSetup.General.TC032_PeriodMasterUpdateData]]>
-            </line>
-            <line>
-              <![CDATA[Test Method had the following parameters : nullLevel,Level12,23,2,3,4,]]>
+              <![CDATA[Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
@@ -504,11 +591,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Edit_Record -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-11-03T15:24:31Z" finished-at="2017-11-03T15:24:31Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-11-28T11:13:29Z" finished-at="2017-11-28T11:13:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Edit_Record status=SUCCESS method=TC032_PeriodMasterUpdateData.Edit_Record(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f] output=Period master record updated Successfully]]]>
+                <![CDATA[[TestResult name=Edit_Record status=SUCCESS method=TC046_GoalMasterDataUpload.Edit_Record()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1] output=Record Added Successfully]]]>
               </value>
             </param>
           </params>
@@ -518,14 +605,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:Module.HRSetup.General.TC032_PeriodMasterUpdateData@1acf68f]" name="endTest" is-config="true" duration-ms="930" started-at="2017-11-03T15:24:31Z" finished-at="2017-11-03T15:24:32Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload@508ed1]" name="endTest" is-config="true" duration-ms="708" started-at="2017-11-28T11:13:29Z" finished-at="2017-11-28T11:13:30Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing : TestBase.endTest]]>
             </line>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- Module.HRSetup.General.TC032_PeriodMasterUpdateData -->
-    </test> <!-- Period Master -->
-  </suite> <!-- Regression Testing -->
+      </class> <!-- Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload -->
+    </test> <!-- Goal Master Data Upload -->
+  </suite> <!-- HRMS - Regression Testing -->
 </testng-results>

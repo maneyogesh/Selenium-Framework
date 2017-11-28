@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression Testing"  >
+<suite name="HRMS - Regression Testing"  >
         
  <!--    
    <listener class-name="main.customListner.RetryListener"></listener>  
@@ -15,61 +15,123 @@
             
  <parameter name="browserType" value="firefox"/>
  
- <!--  <test name="leave application">
+<!--   <test name="leave application - Apply leave">
     <classes>
-       <class name="ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave"/>
-      <class name="ESS.LeaveandAttendance.LeaveApplication.TC019_LeaveApprovalPlannerViewer"/>
-        <class name="ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval"/>
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify"/> 
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke"/> 
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply"/>
-       </classes>
+       <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC001_ApplyLeave"/>
+           </classes>
+   </test> 
+       
+       <test name="leave Approval Planner Viewer">
+    <classes>
+      <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC019_LeaveApprovalPlannerViewer"/>
+    	</classes>
    </test>  
-  
- <test name="On Behalf leave application">
+   
+   <test name="leave Approval">
     <classes>
-     <class name="ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply"/> 
-        <class name="ESS.LeaveandAttendance.LeaveApplication.TC006_OnBehalfLeaveApproval"/> 
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC007_OnBehalfLeaveVerify"/> 
-                
+      <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval"/>
+       	</classes>
+   </test>
+   
+  <test name="leave Verify">
+    <classes>
+         <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC003_LeaveVerify"/> 
+          	</classes>
+   </test>
+   
+     <test name="leave Revoke">
+    <classes>
+         <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC004_LeaveRevoke"/> 
+    </classes>
+   </test> -->
+  
+<!--   <test name="On Behalf leave apply">
+    <classes>
+     <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply"/> 
+                 
        </classes>
    </test> 
    
-<test name="Roster Definition">
+    <test name="On Behalf leave Approval">
     <classes>
-     <class name="ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition"/> 
+    <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC006_OnBehalfLeaveApproval"/>
+       </classes>
+   </test> 
+   
+   <test name="On Behalf leave Verify">
+    <classes>
+         <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC007_OnBehalfLeaveVerify"/> 
+    </classes>
+   </test> -->
+  
+   
+<!-- <test name="Roster Definition">
+    <classes>
+     <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition"/> 
        </classes>
    </test>
    
  <test name="Roster Definition File Upload">
     <classes>
-           <class name="ESS.LeaveandAttendance.LeaveApplication.TC009_RosterDefinitionUploadFile"/>     
+           <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC009_RosterDefinitionUploadFile"/>     
        </classes>
-   </test> 
+   </test>  -->
 
-  <test name="Attendance Regularization All Employees">
+<!--   <test name="Attendance Regularization All Employees">
     <classes>
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC010_AttendanceRegularization"/>   
-             <class name="ESS.LeaveandAttendance.LeaveApplication.TC011_AttendanceApproval"/>  
-            <class name="ESS.LeaveandAttendance.LeaveApplication.TC012_AttendanceVerify"/>   
-       </classes>
+         <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC010_AttendanceRegularization"/>   
+        </classes>
    </test> 
   
- <test name="Employees Attendance Calendar">
+  <test name="Attendance Approval">
     <classes>
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC013_EmployeeAttendanceCalender"/>   
-    	  <class name="ESS.LeaveandAttendance.LeaveApplication.TC014_EmployeeAttendanceCalender_Approval"/>  
-        <class name="ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify"/> 
+  <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC011_AttendanceApproval"/>  
+   </classes>
+   </test> 
+   
+   <test name="Attendance Verify">
+    <classes>
+          <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC012_AttendanceVerify"/> 
+    </classes>
+   </test> -->
+  
+ <!-- <test name="Employees Attendance Calendar">
+    <classes>
+         <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC013_EmployeeAttendanceCalender"/>   
+    	
       </classes>
    </test>
-  
- <test name="Biometric Attendance Upload">
+   
+ <test name="Employees Attendance Calendar Approval">
     <classes>
-          <class name="ESS.LeaveandAttendance.LeaveApplication.TC016_BiometricAttendanceUpload"/> 
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC017_SchedulerConfiguration"/>
-         <class name="ESS.LeaveandAttendance.LeaveApplication.TC018_BiometricAttendanceUploadStatusVerify"/>
+     <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC014_EmployeeAttendanceCalender_Approval"/>  
       </classes>
+   </test>
+   
+    <test name="Employees Attendance Calendar Verify">
+    <classes>
+        <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC015_EmployeeAttendanceCalender_Verify"/> 
+          </classes>
    </test> -->
+
+<!--  <test name="Biometric Attendance Upload">
+    <classes>
+          <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC016_BiometricAttendanceUpload"/> 
+         
+      </classes>
+   </test> 
+   
+    <test name="Scheduler Configuration">
+    <classes>
+   <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC017_SchedulerConfiguration"/>
+     </classes>
+   </test> 
+   
+     <test name="Biometric Attendance Upload Status Verify">
+    <classes>
+         <class name="Module.ESS.LeaveandAttendance.LeaveApplication.TC018_BiometricAttendanceUploadStatusVerify"/>
+   </classes>
+   </test>  -->
    
    <!-- <test name="Soft Joining Process">
     <classes>
@@ -77,10 +139,9 @@
       </classes>
    </test>  -->
    
-<!--    <test name="Induction Schedule">
+<!--  <test name="Induction Schedule">
     <classes>
          <class name="Module.ELC.Induction.TC021_InductionSchedule"/> 
-        
       </classes>
    </test>  
   
@@ -94,7 +155,7 @@
     <classes>
           <class name="Module.ELC.Induction.TC023_InductionFeedBack"/> 
       </classes>
-   </test>  -->
+   </test>   --> 
   <!--   
       <test name="Probation Request">
     <classes>
@@ -126,32 +187,113 @@
       </classes>
    </test>   --> 
    
-   <!--     <test name="Question Master Add Question">
+   <!-- <test name="Question Master Add Question">
     <classes>
           <class name="Module.HRSetup.General.TC029_QuestionMasterAddQuestion"/> 
       </classes>
    </test>  
-    -->
-<!--     
+      
        <test name="Test Setup add Test">
     <classes>
           <class name="Module.HRSetup.General.TC030_TestSetupAddTest"/> 
       </classes>
-   </test>  -->
+   </test> 
  
-   <!--      <test name="Basic Salary Range add Test">
+       <test name="Basic Salary Range add Test">
     <classes>
           <class name="Module.HRSetup.General.TC031_BasicSalaryRangeAddData"/> 
       </classes>
-   </test>  -->
+   </test>  
    
-         <test name="Period Master">
+       <test name="Period Master">
     <classes>
           <class name="Module.HRSetup.General.TC032_PeriodMasterUpdateData"/> 
       </classes>
+   </test>   -->
+
+  <!--    <test name="Resignation Submition">
+    <classes>
+          <class name="Module.ELC.Exit.TC033_ResignationSubmition"/> 
+      </classes>
+   </test>  
+   
+    <test name="Resignation Approval by RP">
+    <classes>
+          <class name="Module.ELC.Exit.TC034_ResignationApprovarRP"/> 
+      </classes>
    </test> 
-
-
+   
+      <test name="Resignation Approval by HR">
+    <classes>
+          <class name="Module.ELC.Exit.TC035_ResignationApprovarHR"/> 
+      </classes>
+   </test>  
+   
+         <test name="Resignation Final status verification">
+    <classes>
+          <class name="Module.ELC.Exit.TC036_ResignationStatusVerify"/> 
+      </classes>
+   </test>   
+    -->
+          <!--    <test name="Exit Form">
+    <classes>
+          <class name="Module.ELC.Exit.TC037_ExitForm"/> 
+      </classes>
+   </test> 
+    
+            <test name="Exit Interview">
+    <classes>
+          <class name="Module.ELC.Exit.TC038_ExitInterview"/> 
+      </classes>
+   </test> 
+   
+            <test name="Exit Interview Endorsement">
+    <classes>
+          <class name="Module.ELC.Exit.TC039_ExitInterviewEndorsement"/> 
+      </classes>
+   </test>  -->
+   
+     <!--       <test name="LWD Changed">
+    <classes>
+          <class name="Module.ELC.Exit.TC040_LWDChange"/> 
+      </classes>
+   </test> -->
+   
+<!--      <test name="Allowance Deduction Master Data Upload">
+    <classes>
+          <class name="Module.HRSetup.Recruitment.TC041_AllowanceDeductionMasterDataUpload"/> 
+      </classes>
+   </test> -->
+   
+ <!--      <test name="Qualification Master Data Upload">
+    <classes>
+          <class name="Module.HRSetup.Recruitment.TC042_QualificationMasterDataUpload"/> 
+      </classes>
+   </test> -->
+   <!-- 
+     <test name="Campus Master Data Upload">
+    <classes>
+          <class name="Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload"/> 
+      </classes>
+   </test> -->
+   
+    <!--  <test name="Consultant Master Data Upload">
+    <classes>
+          <class name="Module.HRSetup.Recruitment.TC044_ConsultantMasterDataUpload"/> 
+      </classes>
+   </test> -->
+   
+    <!--   <test name="Focus Master Data Upload">
+    <classes>
+          <class name="Module.HRSetup.PMSandTraining.TC045_FocusMasterDataUpload"/> 
+      </classes>
+   </test> -->
+   
+     <test name="Goal Master Data Upload">
+    <classes>
+          <class name="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload"/> 
+      </classes>
+   </test> 
    
     </suite> <!-- Suite --> 
       

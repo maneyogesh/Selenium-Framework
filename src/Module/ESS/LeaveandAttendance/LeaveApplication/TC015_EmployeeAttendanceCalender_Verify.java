@@ -27,7 +27,7 @@ public class TC015_EmployeeAttendanceCalender_Verify extends TestBase {
 	
 	@DataProvider(name="AttendanceVerify")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("EmployeeAttendanceCalender.xlsx", "AttendanceVerify");
+		String[][] testRecords = getData("LeaveAndAttendance/EmployeeAttendanceCalender.xlsx", "AttendanceVerify");
 		return testRecords;
 	}
 

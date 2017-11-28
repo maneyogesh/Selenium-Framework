@@ -27,7 +27,7 @@ public class TC001_ApplyLeave extends TestBase {
 	
 	@DataProvider(name="loginData")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("LeaveAndAttendance.xlsx", "ApplyLeave");
+		String[][] testRecords = getData("LeaveAndAttendance/LeaveAndAttendance.xlsx", "ApplyLeave");
 		return testRecords;
 	}
 

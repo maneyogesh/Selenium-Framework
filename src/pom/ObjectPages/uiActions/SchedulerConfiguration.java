@@ -35,11 +35,11 @@ public class SchedulerConfiguration extends TestBase{
 	
 	@FindBy(xpath=".//*[@class='page-heading']") WebElement PageHeader;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
 
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchbutton;
 				
 	String upName = "Upload Button";
 	String utName = "Upload Type Dropdown";

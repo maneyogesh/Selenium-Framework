@@ -26,23 +26,23 @@ public class TestSetup extends TestBase{
 	@FindBy(linkText="General") WebElement General;  
 	@FindBy(linkText="Test Setup") WebElement TestSetup;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpsearch']") WebElement searchdropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearch']") WebElement searchtextbox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSearch']") WebElement searchbutton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnClear']") WebElement ClearSearchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpsearch']") WebElement searchdropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearch']") WebElement searchtextbox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSearch']") WebElement searchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnClear']") WebElement ClearSearchbutton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnAddNew']") WebElement AddNewButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtTestCode']") WebElement TestCode;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtTestname']") WebElement TestName;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ddsubject']") WebElement SelectSubject;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ddquesType']") WebElement QuestionType;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_TXT_PASS_PER']") WebElement PassingPercentage;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkSave']") WebElement SaveButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkback']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnAddNew']") WebElement AddNewButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtTestCode']") WebElement TestCode;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtTestname']") WebElement TestName;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ddsubject']") WebElement SelectSubject;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ddquesType']") WebElement QuestionType;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_TXT_PASS_PER']") WebElement PassingPercentage;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkSave']") WebElement SaveButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkback']") WebElement CancelButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkSelect']") WebElement SelectAll;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkSelect']") WebElement SelectAll;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkDeselect']") WebElement DeSelectAll;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkDeselect']") WebElement DeSelectAll;
 			
 	String module = "Human Resource";
 	String submoduleName = "HR Setup";

@@ -37,9 +37,9 @@ public class AttendanceApproval extends TestBase{
 	String pageName = "Attendance Approval";
 	String PageTitle = "Attendance Approval";
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpMonths']") WebElement PayMonthDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_bttsubmit']") WebElement OKButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_bttcancel']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpMonths']") WebElement PayMonthDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_bttsubmit']") WebElement OKButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_bttcancel']") WebElement CancelButton;
 	
 	@FindBy(xpath=".//*[@class='page-heading']/span[text()='Attendance Approval']") WebElement PageHeader;
 	

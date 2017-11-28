@@ -58,7 +58,9 @@ public class TC023_InductionFeedBack extends TestBase {
 		
 	@Test(priority=1,groups="IFTargetPage",dependsOnGroups="IFLogin")
 	public void TargetPage() throws Exception{
+		bc = new BaseClass(driver);
 		i = new Induction(driver);
+		bc.waitFixedTime(2);
 		i.Test_Open_Target_Page_InductionFeedBack();
 	}
 	

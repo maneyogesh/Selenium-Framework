@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Testing]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HRMS - Regression Testing]">
   <parameter name="browserType" value="firefox"/>
   <listeners>
     <listener class-name="pom.CustomListner.Listener"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="Period Master(failed)">
+  <test name="Goal Master Data Upload(failed)">
     <classes>
-      <class name="Module.HRSetup.General.TC032_PeriodMasterUpdateData">
+      <class name="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload">
         <methods>
+          <include name="Add_New_Button"/>
           <include name="afterMethod"/>
-          <include name="endTest"/>
-          <include name="TargetPage"/>
-          <include name="Search_Functionality" invocation-numbers="0"/>
           <include name="Edit_Record"/>
-          <include name="initializeTestBaseSetup"/>
+          <include name="endTest"/>
           <include name="Login"/>
-          <include name="beforeMethod"/>
+          <include name="Add_Goal_Master_Data" invocation-numbers="0"/>
+          <include name="TargetPage"/>
+          <include name="initializeTestBaseSetup"/>
           <include name="setUp"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- Module.HRSetup.General.TC032_PeriodMasterUpdateData -->
+      </class> <!-- Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload -->
     </classes>
-  </test> <!-- Period Master(failed) -->
-</suite> <!-- Failed suite [Regression Testing] -->
+  </test> <!-- Goal Master Data Upload(failed) -->
+</suite> <!-- Failed suite [HRMS - Regression Testing] -->

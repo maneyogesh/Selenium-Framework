@@ -4,18 +4,16 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="119.704">
+           time="90.210">
   <properties />
-            <testcase name="Add_Questions" time="31.537" classname="Module.HRSetup.General.TC030_TestSetupAddTest">
+            <testcase name="Add_Test" time="24.521" classname="Module.HRSetup.General.TC030_TestSetupAddTest">
                 <failure type="java.lang.AssertionError"
-                  message="Record not Added Successfully expected [true] but found [false]"
+                  message="Expected : [Add New Button] But Found : [Welcome to Onex Software]"
               >
-<![CDATA[java.lang.AssertionError: Record not Added Successfully expected [true] but found [false]
+<![CDATA[java.lang.AssertionError: Expected : [Add New Button] But Found : [Welcome to Onex Software]
   org.testng.Assert.fail(Assert.java:94)
-  org.testng.Assert.failNotEquals(Assert.java:496)
-  org.testng.Assert.assertTrue(Assert.java:42)
-  pom.ObjectPages.uiActions.TestSetup.Test_VerifyRecord(TestSetup.java:124)
-  Module.HRSetup.General.TC030_TestSetupAddTest.Add_Questions(TC030_TestSetupAddTest.java:84)
+  pom.ObjectPages.uiActions.TestSetup.Test_AddNewRecord(TestSetup.java:115)
+  Module.HRSetup.General.TC030_TestSetupAddTest.Add_Test(TC030_TestSetupAddTest.java:80)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -46,8 +44,8 @@
           </testcase>
   
   
-            <testcase name="Add_Questions" time="20.114" classname="Module.HRSetup.General.TC030_TestSetupAddTest" />
-                <testcase name="TargetPage" time="66.889" classname="Module.HRSetup.General.TC030_TestSetupAddTest" />
-                <testcase name="Login" time="1.164" classname="Module.HRSetup.General.TC030_TestSetupAddTest" />
+            <testcase name="Login" time="1.215" classname="Module.HRSetup.General.TC030_TestSetupAddTest" />
+                <testcase name="Add_Test" time="22.305" classname="Module.HRSetup.General.TC030_TestSetupAddTest" />
+                <testcase name="TargetPage" time="42.169" classname="Module.HRSetup.General.TC030_TestSetupAddTest" />
       
 </testsuite>

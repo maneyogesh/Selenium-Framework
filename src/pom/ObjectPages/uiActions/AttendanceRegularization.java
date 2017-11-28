@@ -37,33 +37,33 @@ public class AttendanceRegularization extends TestBase{
 	
 	@FindBy(xpath=".//*[@class='page-heading']/span[text()='ATTENDANCE REGULARIZATION']") WebElement PageHeader;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropDepts']") WebElement Department;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropPayyear']") WebElement Year;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropPayMonth']") WebElement CalendarMonth;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearch;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropDepts']") WebElement Department;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropPayyear']") WebElement Year;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropPayMonth']") WebElement CalendarMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearch;
 		
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_imgToDt']") WebElement CalendarButton;	
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_imgToDt']") WebElement CalendarButton;	
 	@FindBy(xpath=".//*[@id='_content_calToDate_nextArrow']") WebElement NextCalenderButton;
 	@FindBy(xpath=".//*[@id='_content_calToDate_prevArrow']") WebElement PrevCalendarButton;
 	@FindBy(xpath=".//*[@id='_content_calToDate_title']") WebElement MiddleCalendarButton;
 	@FindBy(xpath=".//*[@id='_content_calToDate_daysBody']/tr/td[@class='ajax__calendar_today' OR @class='']") List<WebElement> AllCalendarDays;
 	@FindBy(xpath=".//*[@id='_content_calToDate_monthsBody']/tr/td/div") List<WebElement> AllCalendarMonths;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_drpattStatus']") WebElement AttendanceStatus;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_txtRemarks']") WebElement Remarks;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtintime1_0']") WebElement InTime;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtouttime1_0']") WebElement OutTime;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_SaveButton']") WebElement SaveButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_tabContainer_TabPanel1_CancelSaveBtn']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_drpattStatus']") WebElement AttendanceStatus;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_txtRemarks']") WebElement Remarks;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtintime1_0']") WebElement InTime;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_dgAttRegu_txtouttime1_0']") WebElement OutTime;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_SaveButton']") WebElement SaveButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_tabContainer_TabPanel1_CancelSaveBtn']") WebElement CancelButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement PlannerSearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement PlannerSearchTextBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement PlannerSearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropPayyear']") WebElement PlannerYearDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropPayMonth']") WebElement PlannerMonthDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement PlannerSearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement PlannerSearchTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement PlannerSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropPayyear']") WebElement PlannerYearDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropPayMonth']") WebElement PlannerMonthDropdown;
 		
 	String DepartmentName = "Department Dropdown";
 	String YearName = "Year Dropdown";

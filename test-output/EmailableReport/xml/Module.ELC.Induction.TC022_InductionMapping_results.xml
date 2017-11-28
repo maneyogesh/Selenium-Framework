@@ -3,18 +3,14 @@
            tests="4"
            failures="0"
            errors="0"
-           skipped="2"
-           time="206.253">
+           skipped="0"
+           time="97.967">
   <properties />
   
-            <testcase name="SearchFunctionality" time="0.0" classname="Module.ELC.Induction.TC022_InductionMapping">
-          <skipped />
-    </testcase>
-            <testcase name="InductionSchedule" time="0.0" classname="Module.ELC.Induction.TC022_InductionMapping">
-          <skipped />
-    </testcase>
   
-            <testcase name="TargetPage" time="203.279" classname="Module.ELC.Induction.TC022_InductionMapping" />
-                <testcase name="Login" time="1.332" classname="Module.ELC.Induction.TC022_InductionMapping" />
+            <testcase name="SearchFunctionality" time="6.842" classname="Module.ELC.Induction.TC022_InductionMapping" />
+                <testcase name="InductionSchedule" time="31.581" classname="Module.ELC.Induction.TC022_InductionMapping" />
+                <testcase name="TargetPage" time="58.223" classname="Module.ELC.Induction.TC022_InductionMapping" />
+                <testcase name="Login" time="1.321" classname="Module.ELC.Induction.TC022_InductionMapping" />
       
 </testsuite>

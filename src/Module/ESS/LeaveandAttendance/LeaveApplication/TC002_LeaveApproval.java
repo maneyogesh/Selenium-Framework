@@ -34,7 +34,7 @@ public class TC002_LeaveApproval extends TestBase {
 	
 	@DataProvider(name="loginData")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("LeaveAndAttendance.xlsx", "Approval");
+		String[][] testRecords = getData("LeaveAndAttendance/LeaveAndAttendance.xlsx", "Approval");
 		return testRecords;
 	}
 
@@ -70,7 +70,7 @@ public class TC002_LeaveApproval extends TestBase {
 	@Test(priority=2, groups="LSearchRecord",dependsOnGroups={"Ltargetpage"})
 	public void SearchRecord() throws Exception{
 		la = new LeaveApproval(driver);
-		List<Map<String, String>> map = REM.ReadExcel("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\ExcelData\\SearchRecord.xls","LeaveApproval");
+		List<Map<String, String>> map = REM.ReadExcel("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\ExcelData\\LeaveAndAttendance\\SearchRecord.xls","LeaveApproval");
 		la.Test_Search_Record(map.get(0).get("DropdownValue"), map.get(0).get("SearchRecord"));
 	}
 	

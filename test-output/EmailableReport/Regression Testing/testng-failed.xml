@@ -7,21 +7,20 @@
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="Period Master(failed)">
+  <test name="LWD Changed(failed)">
     <classes>
-      <class name="Module.HRSetup.General.TC032_PeriodMasterUpdateData">
+      <class name="Module.ELC.Exit.TC040_LWDChange">
         <methods>
+          <include name="TargetPage"/>
           <include name="afterMethod"/>
           <include name="endTest"/>
-          <include name="TargetPage"/>
-          <include name="Search_Functionality" invocation-numbers="0"/>
-          <include name="Edit_Record"/>
+          <include name="LWD_Change" invocation-numbers="0"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="Login"/>
-          <include name="beforeMethod"/>
           <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- Module.HRSetup.General.TC032_PeriodMasterUpdateData -->
+      </class> <!-- Module.ELC.Exit.TC040_LWDChange -->
     </classes>
-  </test> <!-- Period Master(failed) -->
+  </test> <!-- LWD Changed(failed) -->
 </suite> <!-- Failed suite [Regression Testing] -->

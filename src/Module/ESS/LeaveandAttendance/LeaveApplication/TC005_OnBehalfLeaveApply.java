@@ -33,7 +33,7 @@ public class TC005_OnBehalfLeaveApply extends TestBase {
 	
 	@DataProvider(name="onbehalf")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("OnBehalfLeaveApplication.xlsx", "apply on behalf leave");
+		String[][] testRecords = getData("LeaveAndAttendance/OnBehalfLeaveApplication.xlsx", "apply on behalf leave");
 		return testRecords;
 	}
 

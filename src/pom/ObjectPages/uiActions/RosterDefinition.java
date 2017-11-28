@@ -25,7 +25,7 @@ public class RosterDefinition extends TestBase{
 	CommonMethods cm;
 	ReadExcelMapping REM = new ReadExcelMapping();
 	
-	@FindBy(id="ImgBtn_HR") WebElement HRMS;
+	@FindBy(xpath=".//*[text()='Human Resource']") WebElement HRMS;
 	@FindBy(linkText="Employee Self Service") WebElement ESS;
 	@FindBy(linkText="Leave & Attendance") WebElement LeaveandAttendance;  
 	@FindBy(linkText="Roster Definition") WebElement RosterDefinition;
@@ -35,13 +35,13 @@ public class RosterDefinition extends TestBase{
 	String pageName = "Roster Definition";
 	String PageTitle = "Roster Definition";
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement SearchBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropDepts']") WebElement DepartmentDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropPayyear']") WebElement YearDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropPayMonth']") WebElement MonthDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement SearchBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropDepts']") WebElement DepartmentDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropPayyear']") WebElement YearDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropPayMonth']") WebElement MonthDropdown;
 	@FindBy(xpath=".//*[@id='DrpShift']") WebElement ShiftCode;
 	@FindBy(xpath=".//*[@id='WeekOff1']") WebElement Weekoff01;
 	@FindBy(xpath=".//*[@id='WeekOff2']") WebElement Weekoff02;
@@ -60,11 +60,11 @@ public class RosterDefinition extends TestBase{
 	@FindBy(xpath=".//*[@class='ui-icon ui-icon-circle-triangle-w']") WebElement TPrevCalendar;
 	@FindBy(xpath=".//*[@class='ui-datepicker-calendar']/tbody/tr/td[@data-event='click']") List<WebElement> TAllDates;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ImgUP']") WebElement UploadButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_FUp1']") WebElement BrowseButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnupload']") WebElement InsideUploadButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ImgUP']") WebElement UploadButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_FUp1']") WebElement BrowseButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnupload']") WebElement InsideUploadButton;
 	@FindBy(xpath=".//*[text()='Pending']/parent::tr/td/input") WebElement ProcessButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btncancel']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btncancel']") WebElement CancelButton;
 	
 	String UBName = "Upload Buttton";
 	String BBName = "Browse Buttton";
@@ -94,12 +94,11 @@ public class RosterDefinition extends TestBase{
 		List<Map<String, String>> map = REM.ReadExcel("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\Excel\\TestCases\\LoginDetails.xls","LeaveAndAttendance");
 		lp = new LoginPage(driver);
 		lp.Login(map.get(14).get("CompanyCode"),map.get(14).get("UserName"), map.get(14).get("Password"));
-		
 	}
 	
-	public void Test_Open_Target_Page(){
+	public void Test_Open_Target_Page() throws Exception{
 		cm = new CommonMethods(driver);
-		cm.TargetPage(HRMS, module, ESS, submoduleName, LeaveandAttendance, subsectionName, RosterDefinition, pageName, PageTitle);	
+		cm.TargetPageClick(HRMS, module, ESS, submoduleName, LeaveandAttendance, subsectionName, RosterDefinition, pageName, SearchButton);	
 	}
 	
 	public void Test_Search_Record(String DepartmentData, String YearData, String MonthData, String dropdown_Value, String SearchData) throws Exception {
@@ -107,17 +106,20 @@ public class RosterDefinition extends TestBase{
 		bc = new BaseClass(driver);
 		bc.selectByVisibleText(DepartmentDropdown, DepartmentData, DepartmentDropdownName);
 		bc.selectByVisibleText(YearDropdown, YearData, YearDropdownName);
-		bc.selectByVisibleText(MonthDropdown, MonthData, MonthDropdownName);
+	//	bc.selectByVisibleText(MonthDropdown, MonthData, MonthDropdownName);
 		cm.Test_Search_Button(SearchDropdown, dropdown_Value, SearchDropdownName, SearchBox, SearchData, SearchButton);
 	}
 	
 	public void Test_DefineRoster(String SearchDataEmployeeName, String ShiftCodeData,String ExcelFromdate, String ExcelTodate, String Weekoff01Data, String Weekoff02Data) throws Exception{
 		bc = new BaseClass(driver);
-		WebElement DATE16 = driver.findElement(By.xpath(".//*[text()='"+SearchDataEmployeeName+"']/following::td[1]/a"));
+		WebElement DATE16 = driver.findElement(By.xpath(".//*[text()='"+SearchDataEmployeeName+" ']/following::td[1]/a"));
+		bc.log(SearchDataEmployeeName+" ");
 		bc.click(DATE16, "16th Date");
 		bc.waitForElement(ShiftCode);
+		bc.waitFixedTime(1);
 		bc.selectByVisibleText(ShiftCode, ShiftCodeData, ShiftCodeName);
 		bc.DateSelectionWithMonthOnly(ExcelFromdate, FromDateCalendareButton, FNextCalender, FPrevCalendar, FAllDates);
+		bc.AlertAcceptIfPresent();
 		bc.waitFixedTime(1);
 		bc.DateSelectionWithMonthOnly(ExcelTodate, ToDateCalendareButton, TNextCalender, TPrevCalendar, TAllDates);
 		bc.selectByVisibleText(Weekoff01, Weekoff01Data, weekoff01Name);
@@ -129,7 +131,7 @@ public class RosterDefinition extends TestBase{
 	public void Test_VerifyRoster(String SearchDataEmployeeName, String ShiftCodeData){
 		bc = new BaseClass(driver);
 		try{
-		WebElement verifyRoster = driver.findElement(By.xpath(".//*[text()='"+SearchDataEmployeeName+"']/parent::tr/td/a[text()='"+ShiftCodeData+"']"));
+		WebElement verifyRoster = driver.findElement(By.xpath(".//*[text()='"+SearchDataEmployeeName+" ']/parent::tr/td/a[text()='"+ShiftCodeData+"']"));
 		Assert.assertTrue(bc.isElementPresentSingleLocator(verifyRoster));
 		bc.log("Roster defined successfully");
 	}catch(AssertionError e){
@@ -151,7 +153,7 @@ public class RosterDefinition extends TestBase{
 		bc.waitForElement(BrowseButton);
 		bc.click(BrowseButton, BBName);
 		////////////////////
-		Runtime.getRuntime().exec("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\UploadMasterEXEFiles\\RosterUpload.exe");
+		Runtime.getRuntime().exec("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\UploadMasterEXEFiles\\RS.exe");
 		////////////////////
 		bc.waitFixedTime(1);
 		bc.click(InsideUploadButton, IUBName);

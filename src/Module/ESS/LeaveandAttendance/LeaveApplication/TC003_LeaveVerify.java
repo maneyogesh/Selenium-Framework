@@ -29,7 +29,7 @@ public class TC003_LeaveVerify extends TestBase {
 	
 	@DataProvider(name="LeaveVerify")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("LeaveAndAttendance.xlsx", "LeaveVerify");
+		String[][] testRecords = getData("LeaveAndAttendance/LeaveAndAttendance.xlsx", "LeaveVerify");
 		return testRecords;
 	}
 

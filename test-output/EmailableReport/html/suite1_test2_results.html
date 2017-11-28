@@ -3,78 +3,88 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Induction Mapping</title>
+  <title>Test Results Report - Goal Master Data Upload</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Induction Mapping</h1>
+<h1>Goal Master Data Upload</h1>
 <p>
-  Test duration: 245.547s
+  Test duration: 51.278s
 </p>
 
 
 
-
-  <table class="resultsTable" width="100%">
-    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">Module.ELC.Induction.TC022_InductionMapping</td>
+        <td colspan="3" class="group">Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload</td>
       </tr>
             
 <tr>
   <td class="method">
-                  InductionSchedule
+                  Add_Goal_Master_Data
       </td>
   <td class="duration">
-    1.281s
+    0.062s
   </td>
   <td class="result">
-                       <i>Depends on group(s): </i>
-        <span class="dependency">IMTargetPage</span>
-        <br />
-                
-          <i>Method arguments: </i><span class="arguments">"Date", "Osource India Pvt. Ltd.", "Mahape", "10", "11", "Employee Name", "Gaikwad Ravina"</span><br />
+        
     
-            <div class="testOutput">
-                        Completed executing : TC022_InductionMapping.InductionSchedule<br />
-                                Test is skipped:InductionSchedule<br />
-                                TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Induction.TC022_InductionMapping<br />
-                                Test Method had the following parameters : nullDate,Osource India Pvt. Ltd.,Mahape,10,11,Employee Name,Gaikwad Ravina,<br />
-                                Test Status: Skipped<br />
-                                Before executing : TestBase.afterMethod<br />
-                  </div>
-    
+        
 
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              pom.CustomListner.Listener.printTestResults(Listener.java:47)<br />
+              pom.CustomListner.Listener.onTestFailure(Listener.java:70)<br />
+              org.testng.internal.Invoker.runTestListeners(Invoker.java:1699)<br />
+              org.testng.internal.Invoker.runTestListeners(Invoker.java:1683)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:697)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:773)<br />
+              org.testng.TestRunner.run(TestRunner.java:623)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:357)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:259)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1110)<br />
+              org.testng.TestNG.run(TestNG.java:1018)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                </div>
       </td>
 </tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload</td>
+      </tr>
+            
 <tr>
   <td class="method">
-                  SearchFunctionality
+                  Edit_Record
       </td>
   <td class="duration">
-    0.361s
+    0.000s
   </td>
   <td class="result">
                        <i>Depends on group(s): </i>
-        <span class="dependency">IMTargetPage</span>
+        <span class="dependency">GMAddNewData</span>
         <br />
                 
-          <i>Method arguments: </i><span class="arguments">"Date", "Osource India Pvt. Ltd.", "Mahape", "10", "11", "Employee Name", "Gaikwad Ravina"</span><br />
     
-            <div class="testOutput">
-                        Completed executing : TC022_InductionMapping.SearchFunctionality<br />
-                                Test is skipped:SearchFunctionality<br />
-                                TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Induction.TC022_InductionMapping<br />
-                                Test Method had the following parameters : nullDate,Osource India Pvt. Ltd.,Mahape,10,11,Employee Name,Gaikwad Ravina,<br />
-                                Test Status: Skipped<br />
-                                Before executing : TestBase.afterMethod<br />
-                  </div>
-    
+        
 
       </td>
 </tr>
@@ -83,24 +93,46 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">Module.ELC.Induction.TC022_InductionMapping</td>
+        <td colspan="3" class="group">Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload</td>
       </tr>
             
 <tr>
   <td class="method">
-                  Login
+                  Add_New_Button
       </td>
   <td class="duration">
-    1.332s
+    2.665s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        Completed executing : TC022_InductionMapping.Login<br />
+                        Completed executing : TC046_GoalMasterDataUpload.Add_New_Button<br />
+                                Test is Success:Add_New_Button<br />
+                                TestName =: null<br />
+                                Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload<br />
+                                Test Status: Pass<br />
+                                Before executing : TestBase.afterMethod<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Login
+      </td>
+  <td class="duration">
+    1.195s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Completed executing : TC046_GoalMasterDataUpload.Login<br />
                                 Test is Success:Login<br />
                                 TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Induction.TC022_InductionMapping<br />
+                                Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload<br />
                                 Test Status: Pass<br />
                                 Before executing : TestBase.afterMethod<br />
                   </div>
@@ -113,17 +145,17 @@
                   TargetPage
       </td>
   <td class="duration">
-    203.279s
+    35.549s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
                         target page is open successfully<br />
-                                Completed executing : TC022_InductionMapping.TargetPage<br />
+                                Completed executing : TC046_GoalMasterDataUpload.TargetPage<br />
                                 Test is Success:TargetPage<br />
                                 TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Induction.TC022_InductionMapping<br />
+                                Test Method resides in :=Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload<br />
                                 Test Status: Pass<br />
                                 Before executing : TestBase.afterMethod<br />
                   </div>

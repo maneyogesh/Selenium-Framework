@@ -3,43 +3,106 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Probation Review By RP</title>
+  <title>Test Results Report - Test Setup add Test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Probation Review By RP</h1>
+<h1>Test Setup add Test</h1>
 <p>
-  Test duration: 256.695s
+  Test duration: 103.747s
 </p>
 
 
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Module.HRSetup.General.TC030_TestSetupAddTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Add_Test
+      </td>
+  <td class="duration">
+    24.521s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Terty4T", "Inregdal4", "Confirmation Feedback", "Objective", "60.0", "SELECT ALL"</span><br />
+    
+            <div class="testOutput">
+                        Completed executing : TC030_TestSetupAddTest.Add_Test<br />
+                                TestName =: null<br />
+                                Test Method resides in :=Module.HRSetup.General.TC030_TestSetupAddTest<br />
+                                Test Method had the following parameters : nullTerty4T,Inregdal4,Confirmation Feedback,Objective,60.0,SELECT ALL,<br />
+                                Test Status: Failed<br />
+                                Before executing : TestBase.afterMethod<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Expected : [Add New Button] But Found : [Welcome to Onex Software]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              pom.ObjectPages.uiActions.TestSetup.Test_AddNewRecord(TestSetup.java:115)<br />
+              Module.HRSetup.General.TC030_TestSetupAddTest.Add_Test(TC030_TestSetupAddTest.java:80)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:773)<br />
+              org.testng.TestRunner.run(TestRunner.java:623)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:357)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:259)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1110)<br />
+              org.testng.TestNG.run(TestNG.java:1018)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                </div>
+      </td>
+</tr>
+      </table>
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">Module.ELC.Probation.TC025_ProbationReviewRP</td>
+        <td colspan="3" class="group">Module.HRSetup.General.TC030_TestSetupAddTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  Login
+                  Add_Test
       </td>
   <td class="duration">
-    2.723s
+    22.305s
   </td>
   <td class="result">
         
+          <i>Method arguments: </i><span class="arguments">"Tery33T", "Inregdal3", "Confirmation Feedback", "Objective", "100", "SELECT ALL"</span><br />
     
             <div class="testOutput">
-                        Completed executing : TC025_ProbationReviewRP.Login<br />
-                                Test is Success:Login<br />
+                        Test added Successfully<br />
+                                Completed executing : TC030_TestSetupAddTest.Add_Test<br />
+                                Test is Success:Add_Test<br />
                                 TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Probation.TC025_ProbationReviewRP<br />
+                                Test Method resides in :=Module.HRSetup.General.TC030_TestSetupAddTest<br />
+                                Test Method had the following parameters : nullTery33T,Inregdal3,Confirmation Feedback,Objective,100,SELECT ALL,<br />
                                 Test Status: Pass<br />
                                 Before executing : TestBase.afterMethod<br />
                   </div>
@@ -49,21 +112,19 @@
 </tr>
 <tr>
   <td class="method">
-                  SearchFunctionality
+                  Login
       </td>
   <td class="duration">
-    15.049s
+    1.215s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">"Employee Name", "Mehta Nayan", "Excellent", "Good", "Good", "Excellent", "Excellent", "Excellent", "Excellent", "Excellent", "Excellent", "Excellent", "Good", "Good", "Good", "Good", "Good", "Good", "Excellent", "Excellent", "Excellent", "Good", "Good", "Excellent", "Excellent", "Excellent", "Good", "Test Data", "Submit", "Approve By RP", "Approve By HR", "Submitted", "Approved By HR"</span><br />
     
             <div class="testOutput">
-                        Completed executing : TC025_ProbationReviewRP.SearchFunctionality<br />
-                                Test is Success:SearchFunctionality<br />
+                        Completed executing : TC030_TestSetupAddTest.Login<br />
+                                Test is Success:Login<br />
                                 TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Probation.TC025_ProbationReviewRP<br />
-                                Test Method had the following parameters : nullEmployee Name,Mehta Nayan,Excellent,Good,Good,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Good,Good,Good,Good,Good,Good,Excellent,Excellent,Excellent,Good,Good,Excellent,Excellent,Excellent,Good,Test Data,Submit,Approve By RP,Approve By HR,Submitted,Approved By HR,<br />
+                                Test Method resides in :=Module.HRSetup.General.TC030_TestSetupAddTest<br />
                                 Test Status: Pass<br />
                                 Before executing : TestBase.afterMethod<br />
                   </div>
@@ -76,42 +137,17 @@
                   TargetPage
       </td>
   <td class="duration">
-    149.321s
+    42.169s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
                         target page is open successfully<br />
-                                Completed executing : TC025_ProbationReviewRP.TargetPage<br />
+                                Completed executing : TC030_TestSetupAddTest.TargetPage<br />
                                 Test is Success:TargetPage<br />
                                 TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Probation.TC025_ProbationReviewRP<br />
-                                Test Status: Pass<br />
-                                Before executing : TestBase.afterMethod<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  probationReviewByRP
-      </td>
-  <td class="duration">
-    39.769s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"Employee Name", "Mehta Nayan", "Excellent", "Good", "Good", "Excellent", "Excellent", "Excellent", "Excellent", "Excellent", "Excellent", "Excellent", "Good", "Good", "Good", "Good", "Good", "Good", "Excellent", "Excellent", "Excellent", "Good", "Good", "Excellent", "Excellent", "Excellent", "Good", "Test Data", "Submit", "Approve By RP", "Approve By HR", "Submitted", "Approved By HR"</span><br />
-    
-            <div class="testOutput">
-                        select status<br />
-                                Completed executing : TC025_ProbationReviewRP.probationReviewByRP<br />
-                                Test is Success:probationReviewByRP<br />
-                                TestName =: null<br />
-                                Test Method resides in :=Module.ELC.Probation.TC025_ProbationReviewRP<br />
-                                Test Method had the following parameters : nullEmployee Name,Mehta Nayan,Excellent,Good,Good,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Good,Good,Good,Good,Good,Good,Excellent,Excellent,Excellent,Good,Good,Excellent,Excellent,Excellent,Good,Test Data,Submit,Approve By RP,Approve By HR,Submitted,Approved By HR,<br />
+                                Test Method resides in :=Module.HRSetup.General.TC030_TestSetupAddTest<br />
                                 Test Status: Pass<br />
                                 Before executing : TestBase.afterMethod<br />
                   </div>

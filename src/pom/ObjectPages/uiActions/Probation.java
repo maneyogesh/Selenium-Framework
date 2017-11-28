@@ -50,33 +50,33 @@ public class Probation extends TestBase{
 	@FindBy(xpath=".//*[text()='Probation Review']/parent::tr/td[@class='page-heading']") WebElement PRVPageHeader;
 	@FindBy(xpath=".//*[contains(text(),'Probation Status')]/parent::tr/td[@class='page-heading']") WebElement PSPageHeader;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpsearch']") WebElement SearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearch']") WebElement SearchTextBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSearch']") WebElement SearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnClear']") WebElement ClearSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpsearch']") WebElement SearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearch']") WebElement SearchTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSearch']") WebElement SearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnClear']") WebElement ClearSearchButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpsearch']") WebElement ReviewSearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearch']") WebElement reviewSearchTextBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnSearch']") WebElement reviewSearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnClear']") WebElement reviewClearSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpsearch']") WebElement ReviewSearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearch']") WebElement reviewSearchTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnSearch']") WebElement reviewSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnClear']") WebElement reviewClearSearchButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_UserAccordion']/div/span[text()='PERSONAL DETAILS']") WebElement PersonalDetails;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_UserAccordion']/div/span[text()='SUITABILITY']") WebElement SUITABILITY;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_UserAccordion']/div/span[text()='RATING']") WebElement RATING;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_UserAccordion']/div/span[text()='PROBATION RECOMMENDATION']") WebElement PROBATIONRECOMMENDATION;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_UserAccordion']/div/span[text()='PERSONAL DETAILS']") WebElement PersonalDetails;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_UserAccordion']/div/span[text()='SUITABILITY']") WebElement SUITABILITY;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_UserAccordion']/div/span[text()='RATING']") WebElement RATING;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_UserAccordion']/div/span[text()='PROBATION RECOMMENDATION']") WebElement PROBATIONRECOMMENDATION;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtRemarks1']") WebElement Remark;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtRemarks1']") WebElement Remark;
 	
 	@FindBy(xpath=".//*[@id='drpstatus']") WebElement Action;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_BtnSubmit']") WebElement SubmitButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_BtnCancel']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_BtnSubmit']") WebElement SubmitButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_BtnCancel']") WebElement CancelButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtRemarks1']") WebElement ReviewRemark;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtRemarks1']") WebElement ReviewRemark;
 	@FindBy(xpath=".//*[@id='drpstatuspar']") WebElement ReviewAction;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpConfirmationType']") WebElement ProbationLetter;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnGenerate']") WebElement GenerateButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CancelButton']") WebElement StatusCancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpConfirmationType']") WebElement ProbationLetter;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnGenerate']") WebElement GenerateButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CancelButton']") WebElement StatusCancelButton;
 //	@FindBy(xpath=".//*[@id='drpstatuspar']") WebElement ReviewSubmit;
 
 	String ClearSearchName = "Clear Search Button";

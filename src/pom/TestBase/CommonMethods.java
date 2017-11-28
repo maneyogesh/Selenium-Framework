@@ -182,6 +182,7 @@ public class CommonMethods {
 		bc.click(EditButton, "Edit Button");
 		bc.waitFixedTime(1);
 		bc.click(OKButton, "Save button");
+		bc.AlertAcceptIfPresent();
 		Assert.assertEquals(driver.getTitle(), PageTitle);
 	}
 	

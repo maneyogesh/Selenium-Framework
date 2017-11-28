@@ -31,7 +31,7 @@ public class TC013_EmployeeAttendanceCalender extends TestBase {
 	
 	@DataProvider(name="EmployeeAttendanceCalender")
 	public String[][] getTestData(){
-		String[][] testRecoARs = getData("EmployeeAttendanceCalender.xlsx", "EmployeeAttendanceCalender");
+		String[][] testRecoARs = getData("LeaveAndAttendance/EmployeeAttendanceCalender.xlsx", "EmployeeAttendanceCalender");
 		return testRecoARs;
 	}
 

@@ -35,7 +35,7 @@ public class TC010_AttendanceRegularization extends TestBase {
 	
 	@DataProvider(name="AttendanceRegularization")
 	public String[][] getTestData(){
-		String[][] testRecoARs = getData("AttendanceRegularization.xlsx", "AttendanceRegularization");
+		String[][] testRecoARs = getData("LeaveAndAttendance/AttendanceRegularization.xlsx", "AttendanceRegularization");
 		return testRecoARs;
 	}
 
@@ -72,7 +72,7 @@ public class TC010_AttendanceRegularization extends TestBase {
 	@Test(priority=2,groups="ARSearchRecord",dependsOnGroups={"ARTargetPage"})
 	public void SearchRecord() throws Exception{
 		ar = new AttendanceRegularization(driver);
-		List<Map<String, String>> map = REM.ReadExcel("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\ExcelData\\SearchRecord.xls","AttendanceRegularization");
+		List<Map<String, String>> map = REM.ReadExcel("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\ExcelData\\LeaveAndAttendance\\SearchRecord.xls","AttendanceRegularization");
 		ar.Test_Search_Record(map.get(0).get("Department"),map.get(0).get("Year"),map.get(0).get("Month"),map.get(0).get("Search Dropdown"), map.get(0).get("SearchValue(Employee Name)"));
 	}
 		

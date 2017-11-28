@@ -3,15 +3,13 @@
            tests="3"
            failures="0"
            errors="0"
-           skipped="1"
-           time="167.008">
+           skipped="0"
+           time="82.546">
   <properties />
   
-            <testcase name="InductionSchedule" time="0.0" classname="Module.ELC.Induction.TC021_InductionSchedule">
-          <skipped />
-    </testcase>
   
-            <testcase name="Login" time="1.368" classname="Module.ELC.Induction.TC021_InductionSchedule" />
-                <testcase name="TargetPage" time="132.226" classname="Module.ELC.Induction.TC021_InductionSchedule" />
+            <testcase name="Login" time="1.366" classname="Module.ELC.Induction.TC021_InductionSchedule" />
+                <testcase name="InductionSchedule" time="27.377" classname="Module.ELC.Induction.TC021_InductionSchedule" />
+                <testcase name="TargetPage" time="53.803" classname="Module.ELC.Induction.TC021_InductionSchedule" />
       
 </testsuite>

@@ -37,107 +37,107 @@ public class EmployeeSoftJoining extends TestBase{
 	
 	@FindBy(xpath=".//*[@class='page-heading']/span[text()='Employee Soft Joining']") WebElement PageHeader;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement SearchDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement SearchTextBox;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement SearchButton;
 
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkBAddNewD']") WebElement AddNewButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpTitle']") WebElement Title;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtFirstName']") WebElement CandidateFirstName;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtMidName']") WebElement CandidateMiddleName;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtLastName']") WebElement CandidateLastName;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtArabictext']") WebElement CandidateRegionalName;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_TxtCandPreferredName']") WebElement CandidatepreferredName;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpBDNationality']") WebElement Nationality;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_Drpou']") WebElement Organization;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpCompany']") WebElement Company;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpBranch']") WebElement Branch;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkBAddNewD']") WebElement AddNewButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpTitle']") WebElement Title;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtFirstName']") WebElement CandidateFirstName;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtMidName']") WebElement CandidateMiddleName;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtLastName']") WebElement CandidateLastName;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtArabictext']") WebElement CandidateRegionalName;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_TxtCandPreferredName']") WebElement CandidatepreferredName;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpBDNationality']") WebElement Nationality;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Drpou']") WebElement Organization;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpCompany']") WebElement Company;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpBranch']") WebElement Branch;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpmaritalsts']") WebElement Marital;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpmaritalsts']") WebElement Marital;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_Image4']") WebElement dobCalenderButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender2_nextArrow") WebElement dobNextCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender2_title") WebElement dobMiddleCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender2_prevArrow") WebElement dobPrevCalender;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender2_monthsBody']//descendant::tr/td/div") List<WebElement> dobAllMonth;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender2_daysBody']//tr//td[@class='']") List<WebElement> dobAllDates;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Image4']") WebElement dobCalenderButton;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender2_nextArrow") WebElement dobNextCalender;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender2_title") WebElement dobMiddleCalender;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender2_prevArrow") WebElement dobPrevCalender;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender2_monthsBody']//descendant::tr/td/div") List<WebElement> dobAllMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender2_daysBody']//tr//td[@class='']") List<WebElement> dobAllDates;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtPANNo']") WebElement NationalID;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpGrade']") WebElement Level;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpDiv']") WebElement Division;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpDepartment']") WebElement Department;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtBasicSal']") WebElement BasicSalaryRange;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpDesg']") WebElement Position;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DropCostCenter']") WebElement CostCenter;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtRptManager_UC_txtSearch']") WebElement ReportingManager;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lblRptLevel1']") WebElement ReportingManagerLabel;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtPANNo']") WebElement NationalID;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpGrade']") WebElement Level;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpDiv']") WebElement Division;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpDepartment']") WebElement Department;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtBasicSal']") WebElement BasicSalaryRange;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpDesg']") WebElement Position;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DropCostCenter']") WebElement CostCenter;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtRptManager_UC_txtSearch']") WebElement ReportingManager;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lblRptLevel1']") WebElement ReportingManagerLabel;
 	
 	@FindBy(xpath=".//*[@id='UC_txtSearch']") WebElement ReportingLevel2;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lblRptLevel2']") WebElement ReportingLevel2label;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lblRptLevel2']") WebElement ReportingLevel2label;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ImageE']") WebElement ejCalenderButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender1_nextArrow") WebElement ejNextCalender;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender1_title']") WebElement ejMiddleCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalendarExtender1_prevArrow") WebElement ejPrevCalender;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender1_monthsBody']/tr/td/div") List<WebElement> ejAllMonth;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender1_daysBody']/tr/td[@class='']") List<WebElement> ejAllDates;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ImageE']") WebElement ejCalenderButton;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender1_nextArrow") WebElement ejNextCalender;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender1_title']") WebElement ejMiddleCalender;
+	@FindBy(id="ContentPlaceHolder_CalendarExtender1_prevArrow") WebElement ejPrevCalender;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender1_monthsBody']/tr/td/div") List<WebElement> ejAllMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender1_daysBody']/tr/td[@class='']") List<WebElement> ejAllDates;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtMobileNo']") WebElement MobileNo;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_Txtlandlineno']") WebElement HomeNo;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtOfficialEmail']") WebElement PersonalEmail;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtpassportno']") WebElement PassportNo;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpEmpType']") WebElement ResidentType;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpChangeforRequi']") WebElement ReasonForRequirement;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtReason']") WebElement Reason;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtMobileNo']") WebElement MobileNo;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Txtlandlineno']") WebElement HomeNo;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtOfficialEmail']") WebElement PersonalEmail;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtpassportno']") WebElement PassportNo;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpEmpType']") WebElement ResidentType;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpChangeforRequi']") WebElement ReasonForRequirement;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtReason']") WebElement Reason;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_UCSearchRepatriation_UC_txtSearch']") WebElement POR;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_Label189']") WebElement PORLabel;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_UCSearchRepatriation_UC_txtSearch']") WebElement POR;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Label189']") WebElement PORLabel;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_UCSearchHire_UC_txtSearch']") WebElement POH;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_UCSearchHire_UC_txtSearch']") WebElement POH;
 	@FindBy(xpath=".//*[text()='Point of Hire']") WebElement POHLabel;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtNoticeperiod']") WebElement NP;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtNoticeperiod']") WebElement NP;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ImageF']") WebElement PPCalenderButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalProbationperiod_nextArrow") WebElement PPNextCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalProbationperiod_title") WebElement PPMiddleCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalProbationperiod_prevArrow") WebElement PPPrevCalender;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender1_monthsBody']/tr/td/div") List<WebElement> PPAllMonth;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalendarExtender1_daysBody']/tr/td[@class='']") List<WebElement> PPAllDates;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ImageF']") WebElement PPCalenderButton;
+	@FindBy(id="ContentPlaceHolder_CalProbationperiod_nextArrow") WebElement PPNextCalender;
+	@FindBy(id="ContentPlaceHolder_CalProbationperiod_title") WebElement PPMiddleCalender;
+	@FindBy(id="ContentPlaceHolder_CalProbationperiod_prevArrow") WebElement PPPrevCalender;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender1_monthsBody']/tr/td/div") List<WebElement> PPAllMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalendarExtender1_daysBody']/tr/td[@class='']") List<WebElement> PPAllDates;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpEmployeetype']") WebElement EmployeeType;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpAction']") WebElement Action;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtRemarks']") WebElement Remark;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lblAddNew']") WebElement AddNewFamilyMember;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_OkButton']") WebElement OKButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CancelButton']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpEmployeetype']") WebElement EmployeeType;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpAction']") WebElement Action;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtRemarks']") WebElement Remark;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lblAddNew']") WebElement AddNewFamilyMember;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_OkButton']") WebElement OKButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CancelButton']") WebElement CancelButton;
 	
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtDependentName']") WebElement FamilyMemberName;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpMaritalStatus']") WebElement MaritalStatus;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtDependentName']") WebElement FamilyMemberName;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpMaritalStatus']") WebElement MaritalStatus;
 
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtAddress']") WebElement FAddress;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_TxtPhoneNo']") WebElement FPhoneNo;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpRelation']") WebElement Relationship;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtAddress']") WebElement FAddress;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_TxtPhoneNo']") WebElement FPhoneNo;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpRelation']") WebElement Relationship;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_imgCalBirthtDate']") WebElement FCalenderButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalExtBirthDate_nextArrow") WebElement FNextCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalExtBirthDate_title") WebElement FMiddleCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_CalExtBirthDate_prevArrow") WebElement FPrevCalender;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalExtBirthDate_monthsBody']/tr/td/div") List<WebElement> FAllMonth;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CalExtBirthDate_daysBody']/tr/td[@class='']") List<WebElement> FAllDates;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_imgCalBirthtDate']") WebElement FCalenderButton;
+	@FindBy(id="ContentPlaceHolder_CalExtBirthDate_nextArrow") WebElement FNextCalender;
+	@FindBy(id="ContentPlaceHolder_CalExtBirthDate_title") WebElement FMiddleCalender;
+	@FindBy(id="ContentPlaceHolder_CalExtBirthDate_prevArrow") WebElement FPrevCalender;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalExtBirthDate_monthsBody']/tr/td/div") List<WebElement> FAllMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CalExtBirthDate_daysBody']/tr/td[@class='']") List<WebElement> FAllDates;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpCountry']") WebElement Birthcountry;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpState']") WebElement BirthState;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpLocation']") WebElement BirthLocation;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_DrpDepenType']") WebElement FamilyType;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_TxtOccupation']") WebElement Occupation;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpIdtype']") WebElement IdentityType;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtIdnum']") WebElement IdentityNo;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_OkButtondt']") WebElement FOKButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CancelButtondt']") WebElement FCancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpCountry']") WebElement Birthcountry;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpState']") WebElement BirthState;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpLocation']") WebElement BirthLocation;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_DrpDepenType']") WebElement FamilyType;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_TxtOccupation']") WebElement Occupation;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpIdtype']") WebElement IdentityType;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtIdnum']") WebElement IdentityNo;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_OkButtondt']") WebElement FOKButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CancelButtondt']") WebElement FCancelButton;
 			
 	String ClearSearchName = "Clear Search Button";
 	String CalendarMonthName = "Calendar Month Dropdown";
@@ -187,7 +187,7 @@ public class EmployeeSoftJoining extends TestBase{
 	
 		bc.selectByVisibleText(Branch, BranchData, "Branch");
 		
-		WebElement Gender = driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder_RadioButtonGender']/tbody/tr/td/label[text()='"+GenderData+"']"));
+		WebElement Gender = driver.findElement(By.xpath(".//*[@id='ContentPlaceHolder_RadioButtonGender']/tbody/tr/td/label[text()='"+GenderData+"']"));
 		bc.click(Gender, "Gender");
 		
 		bc.selectByVisibleText(Marital, MaritalData, "Marital Status");
@@ -219,7 +219,7 @@ public class EmployeeSoftJoining extends TestBase{
 		bc.SendKeys(PassportNo, PassportNodata, "Passport No");
 		bc.selectByVisibleText(ResidentType, ResidentTypeDATA, "Resident Type");
 		
-		WebElement Budgeted = driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder_rdblBudgetedPositn']/tbody/tr/td/label[text()='"+BudgetedData+"']"));
+		WebElement Budgeted = driver.findElement(By.xpath(".//*[@id='ContentPlaceHolder_rdblBudgetedPositn']/tbody/tr/td/label[text()='"+BudgetedData+"']"));
 		bc.click(Budgeted, "Budgeted");
 		
 		bc.selectByVisibleText(ReasonForRequirement, ReasonForRequirementData, "Reason For Requirement");

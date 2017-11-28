@@ -33,7 +33,7 @@ public class TC008_RosterDefinition extends TestBase {
 	
 	@DataProvider(name="Roster")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("RosterDefinition.xlsx", "RosterDefinition");
+		String[][] testRecords = getData("LeaveAndAttendance/RosterDefinition.xlsx", "RosterDefinition");
 		return testRecords;
 	}
 
@@ -70,7 +70,7 @@ public class TC008_RosterDefinition extends TestBase {
 	@Test(priority=2,groups="RDSearchRecord",dependsOnGroups={"RDTargetPage"})
 	public void SearchRecord() throws Exception{
 		rd = new RosterDefinition(driver);
-		List<Map<String, String>> map = REM.ReadExcel("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\ExcelData\\RosterDefinitionSearchRecord.xls","RosterDefinition");
+		List<Map<String, String>> map = REM.ReadExcel("D:\\SVN\\QA-Testing-Doc\\Quality Assurance\\AutomationTestScript\\HRMS_Regression\\src\\pom\\ExcelData\\LeaveAndAttendance\\SearchRecord.xls","RosterDefinition");
 		rd.Test_Search_Record(map.get(0).get("Department"),map.get(0).get("Year"),map.get(0).get("Month"),map.get(0).get("Search Dropdown"), map.get(0).get("SearchValue(Employee Name)"));
 	}
 		
@@ -103,7 +103,7 @@ public class TC008_RosterDefinition extends TestBase {
 		}
 	}
 	
-	@Test(priority=4,dependsOnGroups = { "RDTargetPage" })
+	@Test(priority=10,dependsOnGroups = { "RDTargetPage" })
 	public void EditDefinedRoster(){
 		rd = new RosterDefinition(driver);
 		rd.Test_EditRoster();

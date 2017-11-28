@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="93.411">
+           time="87.326">
   <properties />
   
   
-            <testcase name="Edit_Record" time="10.747" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
-                <testcase name="TargetPage" time="74.909" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
-                <testcase name="Search_Functionality" time="6.539" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
-                <testcase name="Login" time="1.216" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
+            <testcase name="Search_Functionality" time="7.304" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
+                <testcase name="Login" time="3.785" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
+                <testcase name="TargetPage" time="64.319" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
+                <testcase name="Edit_Record" time="11.918" classname="Module.HRSetup.General.TC032_PeriodMasterUpdateData" />
       
 </testsuite>

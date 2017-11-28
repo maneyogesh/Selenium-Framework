@@ -37,13 +37,13 @@ public class BiometricAttendanceUpload extends TestBase{
 	
 	@FindBy(xpath=".//*[@class='page-heading']/span[text()='Biometric Attendance Upload']") WebElement PageHeader;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lblUpload']") WebElement UploadButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drptype']") WebElement UploadTypeDropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lblUpload']") WebElement UploadButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drptype']") WebElement UploadTypeDropdown;
 
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_FileUploadECS']") WebElement BrowseButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_ECS_btnUpload']") WebElement ADDButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_btnCancel']") WebElement CancelButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkDownload']") WebElement DownloadTemplate;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_FileUploadECS']") WebElement BrowseButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_ECS_btnUpload']") WebElement ADDButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_btnCancel']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkDownload']") WebElement DownloadTemplate;
 			
 	String upName = "Upload Button";
 	String utName = "Upload Type Dropdown";

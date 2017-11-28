@@ -27,7 +27,7 @@ public class LeaveApplication extends TestBase{
 	CommonMethods cm;
 	ReadExcelMapping REM = new ReadExcelMapping();
 	
-	@FindBy(id="ImgBtn_HR") WebElement HRMS;
+	@FindBy(linkText="Human Resource") WebElement HRMS;
 	@FindBy(linkText="Employee Self Service") WebElement ESS;
 	@FindBy(linkText="Leave & Attendance") WebElement LeaveandAttendance;  
 	@FindBy(linkText="Leave Application") WebElement LeaveApplication;
@@ -42,27 +42,27 @@ public class LeaveApplication extends TestBase{
 	String ReasonName = "Reason";
 	String AddressName = "Address";
 	
-	@FindBy(id="ctl00_ContentPlaceHolder_LnkAddLeave") WebElement ApplyLeaveButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_lnkaddNew") WebElement AddNewButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_drpLeaveTypes") WebElement LeaveType;
-	@FindBy(id="ctl00_ContentPlaceHolder_txtNoofdays") WebElement NoOfLeave;
-	@FindBy(id="ctl00_ContentPlaceHolder_SaveButton") WebElement SaveButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_drpAction") WebElement ActionDropdown;
-	@FindBy(id="ctl00_ContentPlaceHolder_btnOk") WebElement OKButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_imgLeaveFrom']") WebElement CalenderButton;
-	@FindBy(id="ctl00_ContentPlaceHolder_Calendarextender1_nextArrow") WebElement NextCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_Calendarextender1_title") WebElement MiddleCalender;
-	@FindBy(id="ctl00_ContentPlaceHolder_Calendarextender1_prevArrow") WebElement PrevCalender;
-	@FindBy(xpath=".//*[@id='ctl00_ctl00_ContentPlaceHolder_Calendarextender1_monthsBody']//descendant::tr/td/div") List<WebElement> AllMonth;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_Calendarextender1_daysBody']//tr//td[@class='']//div") List<WebElement> AllDates;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtLeaveFromDt']") WebElement DateTextBox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CancelSaveBtn']") WebElement AddNewCancelButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_lnkBack']") WebElement ApplyLeaveBackButton;
+	@FindBy(id="ContentPlaceHolder_LnkAddLeave") WebElement ApplyLeaveButton;
+	@FindBy(id="ContentPlaceHolder_lnkaddNew") WebElement AddNewButton;
+	@FindBy(id="ContentPlaceHolder_drpLeaveTypes") WebElement LeaveType;
+	@FindBy(id="ContentPlaceHolder_txtNoofdays") WebElement NoOfLeave;
+	@FindBy(id="ContentPlaceHolder_SaveButton") WebElement SaveButton;
+	@FindBy(id="ContentPlaceHolder_drpAction") WebElement ActionDropdown;
+	@FindBy(id="ContentPlaceHolder_btnOk") WebElement OKButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_imgLeaveFrom']") WebElement CalenderButton;
+	@FindBy(id="ContentPlaceHolder_Calendarextender1_nextArrow") WebElement NextCalender;
+	@FindBy(id="ContentPlaceHolder_Calendarextender1_title") WebElement MiddleCalender;
+	@FindBy(id="ContentPlaceHolder_Calendarextender1_prevArrow") WebElement PrevCalender;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Calendarextender1_monthsBody']//descendant::tr/td/div") List<WebElement> AllMonth;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Calendarextender1_daysBody']//tr//td[not(contains(@class,'ajax__calendar_other'))]") List<WebElement> AllDates;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtLeaveFromDt']") WebElement DateTextBox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CancelSaveBtn']") WebElement AddNewCancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_lnkBack']") WebElement ApplyLeaveBackButton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtLandNo']") WebElement ContactNumber;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtMobileNo']") WebElement MobileNumber;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtReason']") WebElement Reason;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtAddress']") WebElement Address;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtLandNo']") WebElement ContactNumber;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtMobileNo']") WebElement MobileNumber;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtReason']") WebElement Reason;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtAddress']") WebElement Address;
 	
 	
 	public LeaveApplication(WebDriver driver) {
@@ -76,13 +76,14 @@ public class LeaveApplication extends TestBase{
 		lp.Login(map.get(0).get("CompanyCode"),map.get(0).get("UserName"), map.get(0).get("Password"));
 	}
 	
-	public void Test_Open_Target_Page(){
+	public void Test_Open_Target_Page() throws Exception{
 		cm = new CommonMethods(driver);
-		cm.TargetPage(HRMS, module, ESS, submoduleName, LeaveandAttendance, subsectionName, LeaveApplication, pageName, PageTitle);	
+		cm.TargetPageClick(HRMS, module, ESS, submoduleName, LeaveandAttendance, subsectionName, LeaveApplication, pageName, ApplyLeaveButton);	
 	}
 	
 	public void Test_ApplyLeave(String leaveTypeData,String Exceldate, String NoOfLeaveData, String ContactNoData, String MobileNumberData, String ReasonData, String AddressData, String ActionData) throws Exception{
 		bc = new BaseClass(driver);
+		bc.waitForElement(ApplyLeaveButton);
 		bc.clickWhenReady(ApplyLeaveButton, 30);
 		bc.AlertAcceptIfPresent();
 		bc.clickWhenReady(AddNewButton, 30);
@@ -92,8 +93,10 @@ public class LeaveApplication extends TestBase{
 		bc.DateSelection(Exceldate, CalenderButton, NextCalender, MiddleCalender, PrevCalender, AllMonth, AllDates);
 		bc.waitFixedTime(2);
 		bc.SendKeys(NoOfLeave, NoOfLeaveData, "No Of Leave");
+		bc.waitFixedTime(2);
 		bc.click(SaveButton, "Save Button");
 		bc.AlertAcceptIfPresent();
+		bc.waitFixedTime(1);
 		try{
 		Assert.assertTrue(bc.isElementPresentSingleLocator(AddNewCancelButton));
 		bc.click(AddNewCancelButton, "Cancel Button");
@@ -106,7 +109,9 @@ public class LeaveApplication extends TestBase{
 			bc.SendKeys(Reason, ReasonData, ReasonName);
 			bc.SendKeys(Address, AddressData, AddressName);
 			bc.selectByVisibleText(ActionDropdown, ActionData, "Action Dropdown");
+			bc.waitFixedTime(1);
 			bc.click(OKButton, "OK Button");
+			bc.waitFixedTime(9);
 			bc.AlertAcceptIfPresent();
 		}
 		

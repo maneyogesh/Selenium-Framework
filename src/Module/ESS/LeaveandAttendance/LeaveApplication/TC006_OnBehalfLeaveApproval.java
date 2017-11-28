@@ -31,7 +31,7 @@ public class TC006_OnBehalfLeaveApproval extends TestBase {
 	
 	@DataProvider(name="loginData")
 	public String[][] getTestData(){
-		String[][] testRecords = getData("OnBehalfLeaveApplication.xlsx", "OnBehalfApproval");
+		String[][] testRecords = getData("LeaveAndAttendance/OnBehalfLeaveApplication.xlsx", "OnBehalfApproval");
 		return testRecords;
 	}
 

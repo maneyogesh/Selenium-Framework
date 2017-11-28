@@ -26,19 +26,19 @@ public class PeriodMaster extends TestBase{
 	@FindBy(linkText="General") WebElement General;  
 	@FindBy(linkText="Period Master") WebElement PeriodMaster;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_drpSearchList']") WebElement searchdropdown;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtSearchText']") WebElement searchtextbox;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdSearch']") WebElement searchbutton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_drpSearchList']") WebElement searchdropdown;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtSearchText']") WebElement searchtextbox;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdSearch']") WebElement searchbutton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_cmdClearSearch']") WebElement ClearSearchbutton;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_dtgDesgn']/tbody/tr[2]/td[1]/a") WebElement FirstRecord;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtNoticePeriod']") WebElement NoOfDays;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_txtnoticeperiodalert']") WebElement NoticePeriod;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_Txtprobationperiod']") WebElement ProbationPeriod;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_Txtprobationperiodalert']") WebElement PPAlert;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_dtgDesgn']/tbody/tr[2]/td[1]/a") WebElement FirstRecord;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtNoticePeriod']") WebElement NoOfDays;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_txtnoticeperiodalert']") WebElement NoticePeriod;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Txtprobationperiod']") WebElement ProbationPeriod;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_Txtprobationperiodalert']") WebElement PPAlert;
 	
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_OkButton']") WebElement SaveButton;
-	@FindBy(xpath=".//*[@id='ctl00_ContentPlaceHolder_CancelButton']") WebElement CancelButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_OkButton']") WebElement SaveButton;
+	@FindBy(xpath=".//*[@id='ContentPlaceHolder_CancelButton']") WebElement CancelButton;
 	
 	String module = "Human Resource";
 	String submoduleName = "HR Setup";
