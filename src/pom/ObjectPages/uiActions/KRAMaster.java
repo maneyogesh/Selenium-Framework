@@ -107,7 +107,7 @@ public class KRAMaster extends TestBase{
 		bc = new BaseClass(driver);
 		WebElement RecentAddedRecord = driver.findElement(By.xpath(".//*[text()='"+GoalCodedata+"']"));
 			Assert.assertTrue(bc.isElementPresentSingleLocator(RecentAddedRecord), "Record not Found");
-			bc.log("Goal Code master record added Successfully");
+			bc.log("Goal Code master record added Successfully.");
 	}
 	
 	public void Test_Edit_Record(){
