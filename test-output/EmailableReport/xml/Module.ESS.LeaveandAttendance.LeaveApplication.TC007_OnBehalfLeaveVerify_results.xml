@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="On Behalf leave Verify"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.904">
+  <properties />
+  
+  
+            <testcase name="VerifyLeave" time="15.951" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC007_OnBehalfLeaveVerify" />
+                <testcase name="TargetPage" time="68.833" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC007_OnBehalfLeaveVerify" />
+                <testcase name="Login" time="1.611" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC007_OnBehalfLeaveVerify" />
+                <testcase name="VerifyLeave" time="16.509" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC007_OnBehalfLeaveVerify" />
+      
+</testsuite>

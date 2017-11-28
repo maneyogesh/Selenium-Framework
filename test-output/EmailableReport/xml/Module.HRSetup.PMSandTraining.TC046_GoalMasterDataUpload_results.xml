@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Goal Master Data Upload"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="59.586">
+  <properties />
+  
+  
+            <testcase name="Add_New_Button" time="2.796" classname="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload" />
+                <testcase name="Edit_Record" time="6.300" classname="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload" />
+                <testcase name="Login" time="1.484" classname="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload" />
+                <testcase name="Add_Goal_Master_Data" time="18.700" classname="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload" />
+                <testcase name="TargetPage" time="30.306" classname="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload" />
+      
+</testsuite>

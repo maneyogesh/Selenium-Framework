@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Resignation Final status verification"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="77.770">
+  <properties />
+  
+  
+            <testcase name="Resignation_FinalStatus_Verification" time="9.927" classname="Module.ELC.Exit.TC036_ResignationStatusVerify" />
+                <testcase name="TargetPage" time="66.424" classname="Module.ELC.Exit.TC036_ResignationStatusVerify" />
+                <testcase name="Login" time="1.419" classname="Module.ELC.Exit.TC036_ResignationStatusVerify" />
+      
+</testsuite>

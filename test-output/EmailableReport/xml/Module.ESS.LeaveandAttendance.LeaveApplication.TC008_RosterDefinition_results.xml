@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Roster Definition"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="160.386">
+  <properties />
+  
+  
+            <testcase name="EditDefinedRoster" time="8.942" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition" />
+                <testcase name="DefineRoster" time="33.134" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition" />
+                <testcase name="Login" time="1.410" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition" />
+                <testcase name="DefineRoster" time="35.767" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition" />
+                <testcase name="SearchRecord" time="16.004" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition" />
+                <testcase name="TargetPage" time="65.129" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC008_RosterDefinition" />
+      
+</testsuite>

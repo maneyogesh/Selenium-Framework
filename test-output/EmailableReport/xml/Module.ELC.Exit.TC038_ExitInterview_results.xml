@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Exit Interview"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="100.004">
+  <properties />
+  
+  
+            <testcase name="Exit_Interview" time="23.416" classname="Module.ELC.Exit.TC038_ExitInterview" />
+                <testcase name="TargetPage" time="66.726" classname="Module.ELC.Exit.TC038_ExitInterview" />
+                <testcase name="Search_Functionality" time="8.324" classname="Module.ELC.Exit.TC038_ExitInterview" />
+                <testcase name="Login" time="1.538" classname="Module.ELC.Exit.TC038_ExitInterview" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Allowance Deduction Master Data Upload"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="70.343">
+  <properties />
+  
+  
+            <testcase name="Login" time="1.588" classname="Module.HRSetup.Recruitment.TC041_AllowanceDeductionMasterDataUpload" />
+                <testcase name="Edit_Record" time="6.995" classname="Module.HRSetup.Recruitment.TC041_AllowanceDeductionMasterDataUpload" />
+                <testcase name="TargetPage" time="29.483" classname="Module.HRSetup.Recruitment.TC041_AllowanceDeductionMasterDataUpload" />
+                <testcase name="Add_Allowance_Deduction_Data" time="32.277" classname="Module.HRSetup.Recruitment.TC041_AllowanceDeductionMasterDataUpload" />
+      
+</testsuite>

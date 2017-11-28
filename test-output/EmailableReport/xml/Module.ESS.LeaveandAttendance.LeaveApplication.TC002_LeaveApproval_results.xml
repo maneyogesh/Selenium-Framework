@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="leave Approval"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="101.445">
+  <properties />
+  
+  
+            <testcase name="SearchRecord" time="6.597" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval" />
+                <testcase name="TargetPage" time="60.423" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval" />
+                <testcase name="LeaveApproveReject" time="16.076" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval" />
+                <testcase name="Login" time="1.164" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval" />
+                <testcase name="LeaveApproveReject" time="17.185" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC002_LeaveApproval" />
+      
+</testsuite>

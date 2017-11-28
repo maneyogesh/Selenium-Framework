@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Exit Form"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="49.145">
+  <properties />
+  
+  
+            <testcase name="TargetPage" time="33.298" classname="Module.ELC.Exit.TC037_ExitForm" />
+                <testcase name="Login" time="1.183" classname="Module.ELC.Exit.TC037_ExitForm" />
+                <testcase name="Exit_Form_Submission" time="14.664" classname="Module.ELC.Exit.TC037_ExitForm" />
+      
+</testsuite>

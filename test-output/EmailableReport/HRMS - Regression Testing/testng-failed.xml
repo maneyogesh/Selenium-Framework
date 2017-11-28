@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HRMS - Regression Testing]">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="pom.CustomListner.Listener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Goal Master Data Upload(failed)">
+    <classes>
+      <class name="Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload">
+        <methods>
+          <include name="Add_New_Button"/>
+          <include name="afterMethod"/>
+          <include name="Edit_Record"/>
+          <include name="endTest"/>
+          <include name="Login"/>
+          <include name="Add_Goal_Master_Data" invocation-numbers="0"/>
+          <include name="TargetPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.HRSetup.PMSandTraining.TC046_GoalMasterDataUpload -->
+    </classes>
+  </test> <!-- Goal Master Data Upload(failed) -->
+</suite> <!-- Failed suite [HRMS - Regression Testing] -->

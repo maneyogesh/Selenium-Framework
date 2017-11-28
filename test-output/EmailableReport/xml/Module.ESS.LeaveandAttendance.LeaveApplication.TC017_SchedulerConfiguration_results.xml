@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scheduler Configuration"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="91.737">
+  <properties />
+  
+  
+            <testcase name="ConfigurationScheduler" time="10.123" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC017_SchedulerConfiguration" />
+                <testcase name="TargetPage" time="80.193" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC017_SchedulerConfiguration" />
+                <testcase name="Login" time="1.421" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC017_SchedulerConfiguration" />
+      
+</testsuite>

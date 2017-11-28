@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Leave and Attendance - Regression Testing]">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="pom.CustomListner.Listener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Exit Interview Endorsement(failed)">
+    <classes>
+      <class name="Module.ELC.Exit.TC039_ExitInterviewEndorsement">
+        <methods>
+          <include name="TargetPage"/>
+          <include name="afterMethod"/>
+          <include name="Login"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="Exit_Interview_Endorsement" invocation-numbers="0"/>
+          <include name="Search_Functionality" invocation-numbers="0"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ELC.Exit.TC039_ExitInterviewEndorsement -->
+      <class name="Module.ELC.Exit.TC037_ExitForm">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Module.ELC.Exit.TC037_ExitForm -->
+      <class name="Module.ELC.Exit.TC038_ExitInterview">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Module.ELC.Exit.TC038_ExitInterview -->
+    </classes>
+  </test> <!-- Exit Interview Endorsement(failed) -->
+</suite> <!-- Failed suite [Leave and Attendance - Regression Testing] -->

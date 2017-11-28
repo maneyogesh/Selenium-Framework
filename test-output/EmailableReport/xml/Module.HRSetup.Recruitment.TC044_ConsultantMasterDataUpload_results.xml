@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Consultant Master Data Upload"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="75.648">
+  <properties />
+  
+  
+            <testcase name="Add_Consultant_Master_Data" time="31.017" classname="Module.HRSetup.Recruitment.TC044_ConsultantMasterDataUpload" />
+                <testcase name="Add_New_Button" time="2.506" classname="Module.HRSetup.Recruitment.TC044_ConsultantMasterDataUpload" />
+                <testcase name="Login" time="1.813" classname="Module.HRSetup.Recruitment.TC044_ConsultantMasterDataUpload" />
+                <testcase name="TargetPage" time="33.773" classname="Module.HRSetup.Recruitment.TC044_ConsultantMasterDataUpload" />
+                <testcase name="Edit_Record" time="6.539" classname="Module.HRSetup.Recruitment.TC044_ConsultantMasterDataUpload" />
+      
+</testsuite>

@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Campus Master Data Upload</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Campus Master Data Upload</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 25 19:04:43 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>90 seconds (90867 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload.Edit_Record()'><b>Edit_Record</b><br>Test class: Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+<a href="#Output-2240472" onClick='toggleBox("Output-2240472", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2240472" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2240472">
+Record Not Added<br/>
+Completed executing : TC043_CampusMasterDataUpload.Edit_Record<br/>
+TestName =: null<br/>
+Test Method resides in :=Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+Test Status: Failed<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected : [Record Updated Successfully.] but Found : [Record Updated Successfully]
+	at pom.TestBase.CommonMethods.Test_Edit_Record(CommonMethods.java:172)
+	at pom.ObjectPages.uiActions.CampusMaster.Test_Edit_Record(CampusMaster.java:135)
+	at Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload.Edit_Record(TC043_CampusMasterDataUpload.java:107)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2240472", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2240472'><pre>java.lang.AssertionError: expected : [Record Updated Successfully.] but Found : [Record Updated Successfully]
+	at org.testng.Assert.fail(Assert.java:94)
+	at pom.TestBase.CommonMethods.Test_Edit_Record(CommonMethods.java:172)
+	at pom.ObjectPages.uiActions.CampusMaster.Test_Edit_Record(CampusMaster.java:135)
+	at Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload.Edit_Record(TC043_CampusMasterDataUpload.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>6</td>
+<td>Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload@508ed1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload.Add_Allowance_Deduction_Data()'><b>Add_Allowance_Deduction_Data</b><br>Test class: Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br>Parameters: Campus Code, 1089, Osource Campuss, 25/11/2017, c12, 10, 11, Yes<br/>
+<a href="#Output-32014879" onClick='toggleBox("Output-32014879", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32014879" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32014879">
+Campus master record added Successfully<br/>
+Completed executing : TC043_CampusMasterDataUpload.Add_Allowance_Deduction_Data<br/>
+Test is Success:Add_Allowance_Deduction_Data<br/>
+TestName =: null<br/>
+Test Method resides in :=Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+Test Method had the following parameters : nullCampus Code,1089,Osource Campuss,25/11/2017,c12,10,11,Yes,<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload@508ed1</td></tr>
+<tr>
+<td title='Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload.Add_New_Button()'><b>Add_New_Button</b><br>Test class: Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+<a href="#Output-2835291" onClick='toggleBox("Output-2835291", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2835291" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2835291">
+Completed executing : TC043_CampusMasterDataUpload.Add_New_Button<br/>
+Test is Success:Add_New_Button<br/>
+TestName =: null<br/>
+Test Method resides in :=Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload@508ed1</td></tr>
+<tr>
+<td title='Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload.Login()'><b>Login</b><br>Test class: Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+<a href="#Output-17906231" onClick='toggleBox("Output-17906231", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17906231" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17906231">
+Completed executing : TC043_CampusMasterDataUpload.Login<br/>
+Test is Success:Login<br/>
+TestName =: null<br/>
+Test Method resides in :=Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload@508ed1</td></tr>
+<tr>
+<td title='Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload.TargetPage()'><b>TargetPage</b><br>Test class: Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+<a href="#Output-12103309" onClick='toggleBox("Output-12103309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12103309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12103309">
+target page is open successfully<br/>
+Completed executing : TC043_CampusMasterDataUpload.TargetPage<br/>
+Test is Success:TargetPage<br/>
+TestName =: null<br/>
+Test Method resides in :=Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload<br/>
+Test Status: Pass<br/>
+Before executing : TestBase.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>Module.HRSetup.Recruitment.TC043_CampusMasterDataUpload@508ed1</td></tr>
+</table><p>
+</body>
+</html>

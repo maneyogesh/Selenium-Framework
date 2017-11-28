@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LWD Changed"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="160.205">
+  <properties />
+  
+  
+            <testcase name="LWD_Change" time="29.937" classname="Module.ELC.Exit.TC040_LWDChange" />
+                <testcase name="Login" time="1.214" classname="Module.ELC.Exit.TC040_LWDChange" />
+                <testcase name="Search_Functionality" time="12.963" classname="Module.ELC.Exit.TC040_LWDChange" />
+                <testcase name="TargetPage" time="116.091" classname="Module.ELC.Exit.TC040_LWDChange" />
+      
+</testsuite>

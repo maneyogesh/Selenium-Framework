@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Employees Attendance Calendar Approval"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="67.117">
+  <properties />
+  
+            <testcase name="LeaveApproveReject" time="0.0" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC014_EmployeeAttendanceCalender_Approval">
+          <skipped />
+    </testcase>
+  
+            <testcase name="TargetPage" time="62.291" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC014_EmployeeAttendanceCalender_Approval" />
+                <testcase name="Login" time="1.602" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC014_EmployeeAttendanceCalender_Approval" />
+      
+</testsuite>

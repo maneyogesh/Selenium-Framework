@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Resignation Approval by HR"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="90.818">
+  <properties />
+  
+  
+            <testcase name="Login" time="1.320" classname="Module.ELC.Exit.TC035_ResignationApprovarHR" />
+                <testcase name="Search_Functionality" time="8.592" classname="Module.ELC.Exit.TC035_ResignationApprovarHR" />
+                <testcase name="Resignation_Approvar_HR" time="18.411" classname="Module.ELC.Exit.TC035_ResignationApprovarHR" />
+                <testcase name="TargetPage" time="62.495" classname="Module.ELC.Exit.TC035_ResignationApprovarHR" />
+      
+</testsuite>

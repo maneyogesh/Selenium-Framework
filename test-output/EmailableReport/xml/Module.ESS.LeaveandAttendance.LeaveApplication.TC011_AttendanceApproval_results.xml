@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Attendance Approval"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="81.710">
+  <properties />
+  
+            <testcase name="LeaveApproveReject" time="0.0" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC011_AttendanceApproval">
+          <skipped />
+    </testcase>
+  
+            <testcase name="TargetPage" time="65.177" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC011_AttendanceApproval" />
+                <testcase name="LeaveApproveReject" time="14.188" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC011_AttendanceApproval" />
+                <testcase name="Login" time="1.453" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC011_AttendanceApproval" />
+      
+</testsuite>

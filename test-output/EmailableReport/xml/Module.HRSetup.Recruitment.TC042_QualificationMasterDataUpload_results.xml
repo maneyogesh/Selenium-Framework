@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Qualification Master Data Upload"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="5"
+           time="0.419">
+  <properties />
+  
+            <testcase name="Add_Allowance_Deduction_Data" time="0.0" classname="Module.HRSetup.Recruitment.TC042_QualificationMasterDataUpload">
+          <skipped />
+    </testcase>
+            <testcase name="Edit_Record" time="0.0" classname="Module.HRSetup.Recruitment.TC042_QualificationMasterDataUpload">
+          <skipped />
+    </testcase>
+            <testcase name="Login" time="0.0" classname="Module.HRSetup.Recruitment.TC042_QualificationMasterDataUpload">
+          <skipped />
+    </testcase>
+            <testcase name="TargetPage" time="0.0" classname="Module.HRSetup.Recruitment.TC042_QualificationMasterDataUpload">
+          <skipped />
+    </testcase>
+            <testcase name="Add_New_Button" time="0.0" classname="Module.HRSetup.Recruitment.TC042_QualificationMasterDataUpload">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

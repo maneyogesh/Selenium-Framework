@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Attendance Regularization All Employees"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="110.022">
+  <properties />
+  
+  
+            <testcase name="SearchRecord" time="22.423" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC010_AttendanceRegularization" />
+                <testcase name="Login" time="1.666" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC010_AttendanceRegularization" />
+                <testcase name="TargetPage" time="68.761" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC010_AttendanceRegularization" />
+                <testcase name="AttendanceRegularization" time="17.172" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC010_AttendanceRegularization" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Exit Interview Endorsement"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="86.991">
+  <properties />
+  
+  
+            <testcase name="Search_Functionality" time="6.075" classname="Module.ELC.Exit.TC039_ExitInterviewEndorsement" />
+                <testcase name="Exit_Interview_Endorsement" time="17.231" classname="Module.ELC.Exit.TC039_ExitInterviewEndorsement" />
+                <testcase name="TargetPage" time="62.478" classname="Module.ELC.Exit.TC039_ExitInterviewEndorsement" />
+                <testcase name="Login" time="1.207" classname="Module.ELC.Exit.TC039_ExitInterviewEndorsement" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="On Behalf leave apply"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="242.896">
+  <properties />
+  
+  
+            <testcase name="TargetPage" time="60.416" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply" />
+                <testcase name="OnBehalfLeaveApply" time="90.912" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply" />
+                <testcase name="Login" time="1.328" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply" />
+                <testcase name="OnBehalfLeaveApply" time="90.240" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC005_OnBehalfLeaveApply" />
+      
+</testsuite>

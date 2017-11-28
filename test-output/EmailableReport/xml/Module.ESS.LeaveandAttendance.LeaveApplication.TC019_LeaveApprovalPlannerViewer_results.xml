@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="leave Approval Planner Viewer"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="92.461">
+  <properties />
+  
+  
+            <testcase name="TargetPage" time="60.763" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC019_LeaveApprovalPlannerViewer" />
+                <testcase name="Login" time="1.582" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC019_LeaveApprovalPlannerViewer" />
+                <testcase name="LeavePlannerViewer" time="30.116" classname="Module.ESS.LeaveandAttendance.LeaveApplication.TC019_LeaveApprovalPlannerViewer" />
+      
+</testsuite>

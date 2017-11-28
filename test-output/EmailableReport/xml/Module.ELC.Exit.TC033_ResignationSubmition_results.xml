@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Resignation Submition"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="122.993">
+  <properties />
+  
+  
+            <testcase name="Login" time="1.758" classname="Module.ELC.Exit.TC033_ResignationSubmition" />
+                <testcase name="Search_Functionality" time="9.041" classname="Module.ELC.Exit.TC033_ResignationSubmition" />
+                <testcase name="Resignation_Submission" time="48.316" classname="Module.ELC.Exit.TC033_ResignationSubmition" />
+                <testcase name="TargetPage" time="63.878" classname="Module.ELC.Exit.TC033_ResignationSubmition" />
+      
+</testsuite>
